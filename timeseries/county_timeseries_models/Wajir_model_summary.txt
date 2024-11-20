@@ -1,0 +1,30 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:              Wholesale   No. Observations:                  756
+Model:                 ARIMA(1, 0, 0)   Log Likelihood                3305.233
+Date:                Fri, 15 Nov 2024   AIC                          -6604.466
+Time:                        05:29:08   BIC                          -6590.582
+Sample:                    11-30-2021   HQIC                         -6599.118
+                         - 12-25-2023                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.3634      0.025     14.418      0.000       0.314       0.413
+ar.L1          0.9972      0.002    415.733      0.000       0.993       1.002
+sigma2      9.243e-06   3.03e-07     30.457      0.000    8.65e-06    9.84e-06
+===================================================================================
+Ljung-Box (L1) (Q):                 684.63   Jarque-Bera (JB):               366.60
+Prob(Q):                              0.00   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.96   Skew:                             0.04
+Prob(H) (two-sided):                  0.75   Kurtosis:                         6.41
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+
+Evaluation Metrics:
+Mean Absolute Percentage Error (MAPE): 2.11%
+Mean Absolute Error (MAE): 0.03
+Mean Squared Error (MSE): 0.00
+Root Mean Squared Error (RMSE): 0.03

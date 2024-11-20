@@ -1,0 +1,1501 @@
+Commodity,Classification,Grade,Sex,Market,Wholesale,Retail,Supply Volume,County,Date
+Dry Maize,White Maize,-,-,Kangemi Market,37.78/Kg,48.00/Kg,,Nairobi,2024-11-11
+Dry Maize,White Maize,-,-,Kangemi Market,36.67/Kg,48.00/Kg,,Nairobi,2024-11-08
+Dry Maize,White Maize,-,-,Kangemi Market,37.78/Kg,50.00/Kg,,Nairobi,2024-11-05
+Dry Maize,White Maize,-,-,Test Market,36.67/Kg,-,,test,2024-11-04
+Dry Maize,Mixed-Traditional,-,-,Kipkaren,40.00/Kg,55.00/Kg,2500.00,Kakamega,2024-10-10
+Dry Maize,White Maize,-,-,Kipkaren,50.00/Kg,70.00/Kg,5000.00,Kakamega,2024-10-10
+Dry Maize,White Maize,-,-,Kimilili town,24.00/Kg,28.00/Kg,1000.00,Bungoma,2024-10-10
+Dry Maize,White Maize,-,-,Kalundu,37.78/Kg,40.00/Kg,,Kitui,2024-10-10
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-10-10
+Dry Maize,Mixed-Traditional,-,-,Test Market,200.00/Kg,250.00/Kg,1000.00,test,2024-10-10
+Dry Maize,Yellow Maize,-,-,Test Market,130.00/Kg,200.00/Kg,4000.00,test,2024-10-10
+Dry Maize,White Maize,-,-,Test Market,100.00/Kg,150.00/Kg,100.00,test,2024-10-10
+Dry Maize,Mixed-Traditional,-,-,Mwatate,31.11/Kg,35.00/Kg,,Taita-Taveta,2024-10-10
+Dry Maize,White Maize,-,-,Mwingi Town,37.78/Kg,45.00/Kg,90000.00,Kitui,2024-10-10
+Dry Maize,White Maize,-,-,Rongo,26.67/Kg,31.60/Kg,4500.00,Migori,2024-10-09
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1500.00,Nakuru,2024-10-09
+Dry Maize,White Maize,-,-,Mulot,40.00/Kg,50.00/Kg,12000.00,Bomet,2024-10-09
+Dry Maize,White Maize,-,-,Sabatia,31.11/Kg,37.50/Kg,29700.00,Kakamega,2024-10-09
+Dry Maize,White Maize,-,-,Kakamega Town,26.67/Kg,35.00/Kg,4500.00,Kakamega,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,450.00,Nyamira,2024-10-09
+Dry Maize,White Maize,-,-,Miruka,33.33/Kg,45.00/Kg,54000.00,Nyamira,2024-10-09
+Dry Maize,White Maize,-,-,Miruka,33.33/Kg,45.00/Kg,54000.00,Nyamira,2024-10-09
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-10-09
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1350.00,Meru,2024-10-09
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-10-09
+Dry Maize,Mixed-Traditional,-,-,Makutano Embu,35.56/Kg,50.00/Kg,,Embu,2024-10-09
+Dry Maize,White Maize,-,-,Embu Town,33.33/Kg,50.00/Kg,9000.00,Embu,2024-10-09
+Dry Maize,Mixed-Traditional,-,-,Embu Town,33.33/Kg,50.00/Kg,4000.00,Embu,2024-10-09
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-10-09
+Dry Maize,White Maize,-,-,Gikomba,38.89/Kg,50.00/Kg,,Nairobi,2024-10-09
+Dry Maize,White Maize,-,-,Kamukuywa,28.89/Kg,37.50/Kg,11000.00,Bungoma,2024-10-09
+Dry Maize,White Maize,-,-,Bondo,88.89/Kg,50.00/Kg,14000.00,Siaya,2024-10-08
+Dry Maize,White Maize,-,-,Cheptulu,35.56/Kg,50.00/Kg,2400.00,Vihiga,2024-10-08
+Dry Maize,Mixed-Traditional,-,-,Bondeni,37.50/Kg,45.00/Kg,600.00,Trans-Nzoia,2024-10-08
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1500.00,Nakuru,2024-10-08
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1500.00,Nakuru,2024-10-08
+Dry Maize,White Maize,-,-,Maua,42.22/Kg,50.00/Kg,27000.00,Meru,2024-10-08
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-10-08
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,5000.00,Migori,2024-10-08
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,540.00,Meru,2024-10-08
+Dry Maize,White Maize,-,-,Nyamakima,3700.00/Kg,70.00/Kg,,Nairobi,2024-10-08
+Dry Maize,Mixed-Traditional,-,-,Chuka,35.56/Kg,50.00/Kg,900.00,Tharaka-Nithi,2024-10-08
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-10-08
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-10-08
+Dry Maize,White Maize,-,-,Kapkwen,34.44/Kg,45.00/Kg,27000.00,Bomet,2024-10-08
+Dry Maize,White Maize,-,-,Butere Livestock Market,33.33/Kg,40.00/Kg,22500.00,Kakamega,2024-10-07
+Dry Maize,White Maize,-,-,Rongo,37.78/Kg,21.91/Kg,4500.00,Migori,2024-10-07
+Dry Maize,Yellow Maize,-,-,Aram,41.69/Kg,46.32/Kg,1800.00,Siaya,2024-10-07
+Dry Maize,White Maize,-,-,Aram,35.56/Kg,41.53/Kg,13500.00,Siaya,2024-10-07
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,5400.00,Siaya,2024-10-07
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-10-07
+Dry Maize,White Maize,-,-,Bondo,38.89/Kg,50.00/Kg,28000.00,Siaya,2024-10-07
+Dry Maize,White Maize,-,-,Kisasi,35.00/Kg,40.00/Kg,,Kitui,2024-10-07
+Dry Maize,Yellow Maize,-,-,Gikomba,-,90.00/Kg,3000.00,Nairobi,2024-10-07
+Dry Maize,White Maize,-,-,Gikomba,38.89/Kg,60.00/Kg,,Nairobi,2024-10-07
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-10-07
+Dry Maize,White Maize,-,-,Mabera,34.62/Kg,34.00/Kg,58000.00,Migori,2024-10-07
+Dry Maize,White Maize,-,-,Kibiok,35.00/Kg,40.00/Kg,9000.00,Nandi,2024-10-06
+Dry Maize,White Maize,-,-,Muhoroni,40.00/Kg,50.00/Kg,5000.00,Kisumu,2024-10-06
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,60000.00,Migori,2024-10-05
+Dry Maize,White Maize,-,-,Kapsabet Market,35.56/Kg,40.00/Kg,10000.00,Nandi,2024-10-05
+Dry Maize,White Maize,-,-,Taveta Retail Market,30.00/Kg,40.00/Kg,5000.00,Taita-Taveta,2024-10-05
+Dry Maize,Mixed-Traditional,-,-,Chwele,40.00/Kg,50.00/Kg,4500000.00,Bungoma,2024-10-04
+Dry Maize,White Maize,-,-,Rongo,26.67/Kg,28.25/Kg,4500.00,Migori,2024-10-04
+Dry Maize,White Maize,-,-,Bungoma town,29.17/Kg,41.67/Kg,4000.00,Bungoma,2024-10-04
+Dry Maize,White Maize,-,-,Mumias,31.11/Kg,37.50/Kg,4500.00,Kakamega,2024-10-04
+Dry Maize,White Maize,-,-,Ndanai,33.33/Kg,45.00/Kg,36000.00,Bomet,2024-10-04
+Dry Maize,Mixed-Traditional,-,-,Chuka,40.00/Kg,50.00/Kg,900.00,Tharaka-Nithi,2024-10-04
+Dry Maize,Mixed-Traditional,-,-,Gakoromone,36.67/Kg,30.00/Kg,4000.00,Meru,2024-10-04
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-10-04
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-10-04
+Dry Maize,White Maize,-,-,Nyamakima,38.89/Kg,70.00/Kg,,Nairobi,2024-10-04
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-10-04
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,9200.00,Kirinyaga,2024-10-04
+Dry Maize,White Maize,-,-,Mabera,-,34.00/Kg,120000.00,Migori,2024-10-04
+Dry Maize,Mixed-Traditional,-,-,Isebania Market,-,34.00/Kg,54000.00,Migori,2024-10-03
+Dry Maize,White Maize,-,-,Kerugoya,30.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-10-03
+Dry Maize,White Maize,-,-,Ahero,40.00/Kg,45.00/Kg,7000.00,Kisumu,2024-10-03
+Dry Maize,White Maize,-,-,Aram,35.56/Kg,41.53/Kg,10800.00,Siaya,2024-10-03
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,4500.00,Siaya,2024-10-03
+Dry Maize,White Maize,-,-,Katito,45.00/Kg,50.00/Kg,7500.00,Kisumu,2024-10-03
+Dry Maize,White Maize,-,-,Nyamakima,38.89/Kg,70.00/Kg,,Nairobi,2024-10-03
+Dry Maize,White Maize,-,-,Bondo,38.89/Kg,50.00/Kg,28000.00,Siaya,2024-10-03
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-10-03
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-10-03
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,2000.00,Vihiga,2024-10-03
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-10-03
+Dry Maize,White Maize,-,-,Kimilili town,28.00/Kg,30.00/Kg,10000.00,Bungoma,2024-10-03
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-10-03
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-10-03
+Dry Maize,White Maize,-,-,Kakamega Town,27.78/Kg,35.00/Kg,1800.00,Kakamega,2024-10-02
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1400.00,Nakuru,2024-10-02
+Dry Maize,Yellow Maize,-,-,Miruka,-,50.00/Kg,540.00,Nyamira,2024-10-02
+Dry Maize,White Maize,-,-,Miruka,33.33/Kg,39.44/Kg,54000.00,Nyamira,2024-10-02
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-10-02
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1600.00,Meru,2024-10-02
+Dry Maize,White Maize,-,-,Mulot,37.78/Kg,90.00/Kg,12000.00,Bomet,2024-10-02
+Dry Maize,White Maize,-,-,Taveta Retail Market,35.00/Kg,40.00/Kg,5000.00,Taita-Taveta,2024-10-02
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-10-02
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,55.00/Kg,,Nairobi,2024-10-02
+Dry Maize,White Maize,-,-,Nyamakima,38.89/Kg,70.00/Kg,,Nairobi,2024-10-02
+Dry Maize,Mixed-Traditional,-,-,Makutano Embu,-,25.00/Kg,,Embu,2024-10-02
+Dry Maize,White Maize,-,-,Embu Town,35.56/Kg,50.00/Kg,12000.00,Embu,2024-10-02
+Dry Maize,Mixed-Traditional,-,-,Embu Town,33.33/Kg,50.00/Kg,4000.00,Embu,2024-10-02
+Dry Maize,White Maize,-,-,Rongo,26.67/Kg,23.70/Kg,4500.00,Migori,2024-10-02
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,28000.00,Siaya,2024-10-02
+Dry Maize,White Maize,-,-,Mabera,-,32.00/Kg,50000.00,Migori,2024-10-02
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8000.00,Kirinyaga,2024-10-02
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,7500.00,Kirinyaga,2024-10-02
+Dry Maize,White Maize,-,-,Kimilili town,30.00/Kg,35.00/Kg,1000.00,Bungoma,2024-10-02
+Dry Maize,Mixed-Traditional,-,-,Chwele,35.00/Kg,50.00/Kg,4500000.00,Bungoma,2024-10-02
+Dry Maize,White Maize,-,-,Webuye town,29.17/Kg,33.33/Kg,3000.00,Bungoma,2024-10-02
+Dry Maize,White Maize,-,-,Bondo,44.44/Kg,50.00/Kg,7000.00,Siaya,2024-10-01
+Dry Maize,White Maize,-,-,Musoli Market,30.00/Kg,37.50/Kg,27900.00,Kakamega,2024-10-01
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,3000.00,Vihiga,2024-10-01
+Dry Maize,White Maize,-,-,Kisasi,30.00/Kg,40.00/Kg,,Kitui,2024-10-01
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-10-01
+Dry Maize,White Maize,-,-,Maua,42.22/Kg,50.00/Kg,17100.00,Meru,2024-10-01
+Dry Maize,White Maize,-,-,Mogogosiek Market,34.44/Kg,50.00/Kg,1500.00,Bomet,2024-10-01
+Dry Maize,White Maize,-,-,Kapkwen,34.44/Kg,90.00/Kg,27000.00,Bomet,2024-10-01
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,720.00,Meru,2024-10-01
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,6750.00,Makueni,2024-10-01
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-10-01
+Dry Maize,Mixed-Traditional,-,-,Chuka,40.00/Kg,50.00/Kg,900.00,Tharaka-Nithi,2024-10-01
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-10-01
+Dry Maize,Mixed-Traditional,-,-,Bondeni,35.00/Kg,45.00/Kg,600.00,Trans-Nzoia,2024-10-01
+Dry Maize,Mixed-Traditional,-,-,Bondeni,35.00/Kg,45.00/Kg,600.00,Trans-Nzoia,2024-10-01
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,60000.00,Migori,2024-10-01
+Dry Maize,White Maize,-,-,Kerugoya,28.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-09-30
+Dry Maize,White Maize,-,-,Aram,35.56/Kg,41.53/Kg,13500.00,Siaya,2024-09-30
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,3600.00,Siaya,2024-09-30
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-09-30
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-30
+Dry Maize,Yellow Maize,-,-,Gikomba,-,95.00/Kg,,Nairobi,2024-09-30
+Dry Maize,White Maize,-,-,Gikomba,39.44/Kg,50.00/Kg,,Nairobi,2024-09-30
+Dry Maize,Mixed-Traditional,-,-,Mabera,29.23/Kg,34.00/Kg,56000.00,Migori,2024-09-30
+Dry Maize,White Maize,-,-,Khayega,31.11/Kg,33.33/Kg,540.00,Kakamega,2024-09-29
+Dry Maize,Yellow Maize,-,-,Kibuye,-,65.00/Kg,,Kisumu,2024-09-29
+Dry Maize,White Maize,-,-,Kibuye,40.00/Kg,50.00/Kg,,Kisumu,2024-09-29
+Dry Maize,White Maize,-,-,Kibiok,35.00/Kg,40.00/Kg,7000.00,Nandi,2024-09-29
+Dry Maize,White Maize,-,-,Mumias,30.00/Kg,40.00/Kg,3600.00,Kakamega,2024-09-29
+Dry Maize,Mixed-Traditional,-,-,Mumias,27.78/Kg,35.00/Kg,,Kakamega,2024-09-29
+Dry Maize,White Maize,-,-,Muhoroni,40.00/Kg,50.00/Kg,5000.00,Kisumu,2024-09-29
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1200.00,Nakuru,2024-09-28
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,60000.00,Migori,2024-09-28
+Dry Maize,Mixed-Traditional,-,-,Taveta Retail Market,35.00/Kg,40.00/Kg,,Taita-Taveta,2024-09-28
+Dry Maize,White Maize,-,-,Kisasi,35.00/Kg,40.00/Kg,,Kitui,2024-09-27
+Dry Maize,Mixed-Traditional,-,-,Kisasi,35.00/Kg,40.00/Kg,,Kitui,2024-09-27
+Dry Maize,White Maize,-,-,Bungoma town,35.00/Kg,50.00/Kg,4500.00,Bungoma,2024-09-27
+Dry Maize,White Maize,-,-,Ndanai,33.33/Kg,45.00/Kg,27000.00,Bomet,2024-09-27
+Dry Maize,White Maize,-,-,Kerugoya,28.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-09-27
+Dry Maize,White Maize,-,-,Mumias,31.11/Kg,40.00/Kg,3600.00,Kakamega,2024-09-27
+Dry Maize,Mixed-Traditional,-,-,Mumias,28.89/Kg,37.50/Kg,,Kakamega,2024-09-27
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-27
+Dry Maize,White Maize,-,-,Nyamakima,38.89/Kg,70.00/Kg,,Nairobi,2024-09-27
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-09-27
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-09-27
+Dry Maize,Mixed-Traditional,-,-,Chuka,40.00/Kg,50.00/Kg,900.00,Tharaka-Nithi,2024-09-27
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,6500.00,Kirinyaga,2024-09-27
+Dry Maize,Mixed-Traditional,-,-,Kirwara Market,-,55.00/Kg,150.00,Muranga,2024-09-27
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1300.00,Nakuru,2024-09-27
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,9500.00,Kirinyaga,2024-09-27
+Dry Maize,White Maize,-,-,Mogogosiek Market,34.44/Kg,50.00/Kg,15000.00,Bomet,2024-09-26
+Dry Maize,White Maize,-,-,Mabera,-,34.00/Kg,60000.00,Migori,2024-09-26
+Dry Maize,White Maize,-,-,Katito,45.00/Kg,50.00/Kg,8000.00,Kisumu,2024-09-26
+Dry Maize,White Maize,-,-,Maua,42.22/Kg,50.00/Kg,19800.00,Meru,2024-09-26
+Dry Maize,White Maize,-,-,Kipkaren,40.00/Kg,55.00/Kg,5000.00,Kakamega,2024-09-26
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-26
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-09-26
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,55.00/Kg,,Nairobi,2024-09-26
+Dry Maize,Mixed-Traditional,-,-,Mwingi Town,37.00/Kg,45.00/Kg,15000.00,Kitui,2024-09-26
+Dry Maize,White Maize,-,-,Kakamega Town,27.78/Kg,35.00/Kg,9000.00,Kakamega,2024-09-25
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1300.00,Nakuru,2024-09-25
+Dry Maize,White Maize,-,-,Kabiyet Market,40.00/Kg,45.00/Kg,2000.00,Nandi,2024-09-25
+Dry Maize,White Maize,-,-,Nyamakima,38.89/Kg,70.00/Kg,,Nairobi,2024-09-25
+Dry Maize,White Maize,-,-,Mulot,37.78/Kg,50.00/Kg,15000.00,Bomet,2024-09-25
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-09-25
+Dry Maize,Yellow Maize,-,-,Gikomba,-,200.00/Kg,,Nairobi,2024-09-25
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-09-25
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1450.00,Meru,2024-09-25
+Dry Maize,Mixed-Traditional,-,-,Embu Town,31.11/Kg,50.00/Kg,14000.00,Embu,2024-09-25
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,30.00/Kg,40.00/Kg,8500.00,Kirinyaga,2024-09-25
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,50.00/Kg,6300.00,Uasin-Gishu,2024-09-25
+Dry Maize,White Maize,-,-,Mabera,-,34.00/Kg,50000.00,Migori,2024-09-25
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,60000.00,Migori,2024-09-25
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,28000.00,Siaya,2024-09-24
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-09-24
+Dry Maize,White Maize,-,-,Kapkwen,35.56/Kg,60.00/Kg,27000.00,Bomet,2024-09-24
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-09-24
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,55.00/Kg,,Nairobi,2024-09-24
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,630.00,Meru,2024-09-24
+Dry Maize,White Maize,-,-,Nyamakima,38.89/Kg,70.00/Kg,,Nairobi,2024-09-24
+Dry Maize,Mixed-Traditional,-,-,Chuka,3.33/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-09-24
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1400.00,Nakuru,2024-09-24
+Dry Maize,White Maize,-,-,Ngurubani Market,30.00/Kg,40.00/Kg,8500.00,Kirinyaga,2024-09-24
+Dry Maize,Mixed-Traditional,-,-,Bondeni,37.50/Kg,45.00/Kg,500.00,Trans-Nzoia,2024-09-24
+Dry Maize,White Maize,-,-,Aram,35.56/Kg,41.53/Kg,11700.00,Siaya,2024-09-23
+Dry Maize,Mixed-Traditional,-,-,Aram,36.92/Kg,46.15/Kg,4500.00,Siaya,2024-09-23
+Dry Maize,White Maize,-,-,Nyamakima,38.89/Kg,70.00/Kg,,Nairobi,2024-09-23
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-23
+Dry Maize,White Maize,-,-,Kagio,46.67/Kg,60.00/Kg,,Kirinyaga,2024-09-23
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-09-23
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,60.00/Kg,,Nairobi,2024-09-23
+Dry Maize,Yellow Maize,-,-,Kibuye,-,65.00/Kg,,Kisumu,2024-09-22
+Dry Maize,White Maize,-,-,Kibuye,37.78/Kg,42.50/Kg,,Kisumu,2024-09-22
+Dry Maize,White Maize,-,-,Muhoroni,40.00/Kg,50.00/Kg,5000.00,Kisumu,2024-09-22
+Dry Maize,White Maize,-,-,Mumias,31.11/Kg,42.50/Kg,3600.00,Kakamega,2024-09-22
+Dry Maize,Mixed-Traditional,-,-,Mumias,25.56/Kg,35.00/Kg,,Kakamega,2024-09-22
+Dry Maize,Mixed-Traditional,-,-,Majengo Vihiga,31.11/Kg,37.50/Kg,24000.00,Vihiga,2024-09-22
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1400.00,Nakuru,2024-09-21
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,50000.00,Migori,2024-09-21
+Dry Maize,Mixed-Traditional,-,-,Lungalunga,35.00/Kg,45.00/Kg,900.00,Kwale,2024-09-21
+Dry Maize,White Maize,-,-,Mbale,31.11/Kg,37.50/Kg,22000.00,Vihiga,2024-09-20
+Dry Maize,White Maize,-,-,Kerugoya,30.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-09-20
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,2500.00,Vihiga,2024-09-20
+Dry Maize,Mixed-Traditional,-,-,Chwele,44.44/Kg,65.00/Kg,99999999.99,Bungoma,2024-09-20
+Dry Maize,White Maize,-,-,Bungoma town,35.00/Kg,50.00/Kg,6000.00,Bungoma,2024-09-20
+Dry Maize,White Maize,-,-,Mumias,31.11/Kg,40.00/Kg,,Kakamega,2024-09-20
+Dry Maize,Mixed-Traditional,-,-,Mumias,26.67/Kg,35.00/Kg,,Kakamega,2024-09-20
+Dry Maize,White Maize,-,-,Voi Wholesale,40.00/Kg,-,90000.00,Taita-Taveta,2024-09-20
+Dry Maize,White Maize,-,-,Nyamakima,38.89/Kg,60.00/Kg,,Nairobi,2024-09-20
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1600.00,Meru,2024-09-20
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8000.00,Kirinyaga,2024-09-20
+Dry Maize,White Maize,-,-,Chuka,33.33/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-09-20
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1100.00,Nakuru,2024-09-20
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,30.00/Kg,40.00/Kg,8500.00,Kirinyaga,2024-09-20
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,30.00/Kg,40.00/Kg,90000.00,Kitui,2024-09-20
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,1200.00,Vihiga,2024-09-19
+Dry Maize,Mixed-Traditional,-,-,Mogogosiek Market,33.33/Kg,50.00/Kg,1500.00,Bomet,2024-09-19
+Dry Maize,White Maize,-,-,Mabera,-,32.00/Kg,60000.00,Migori,2024-09-19
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,21000.00,Siaya,2024-09-19
+Dry Maize,White Maize,-,-,Kipkaren,40.00/Kg,50.00/Kg,3000.00,Kakamega,2024-09-19
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,15300.00,Siaya,2024-09-19
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,3600.00,Siaya,2024-09-19
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-09-19
+Dry Maize,Yellow Maize,-,-,Gikomba,-,90.00/Kg,,Nairobi,2024-09-19
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,60.00/Kg,,Nairobi,2024-09-19
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,2340.00,Kirinyaga,2024-09-19
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-09-19
+Dry Maize,Mixed-Traditional,-,-,Mwatate,33.33/Kg,35.00/Kg,,Taita-Taveta,2024-09-19
+Dry Maize,White Maize,-,-,Kakamega Town,26.67/Kg,35.00/Kg,1800.00,Kakamega,2024-09-18
+Dry Maize,White Maize,-,-,Mulot,33.33/Kg,45.00/Kg,12000.00,Bomet,2024-09-18
+Dry Maize,White Maize,-,-,Miruka,32.89/Kg,37.00/Kg,5000.00,Nyamira,2024-09-18
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-09-18
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-09-18
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-18
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1500.00,Nakuru,2024-09-18
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,27000.00,Meru,2024-09-18
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,50.00/Kg,3000.00,Uasin-Gishu,2024-09-18
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,27.78/Kg,40.00/Kg,9500.00,Kirinyaga,2024-09-18
+Dry Maize,Mixed-Traditional,-,-,Embu Town,27.78/Kg,50.00/Kg,7000.00,Embu,2024-09-18
+Dry Maize,White Maize,-,-,Ugunja,31.11/Kg,40.00/Kg,,Siaya,2024-09-18
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,45000.00,Migori,2024-09-17
+Dry Maize,White Maize,-,-,Mbale,31.11/Kg,37.50/Kg,14000.00,Vihiga,2024-09-17
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,,Vihiga,2024-09-17
+Dry Maize,White Maize,-,-,Kerugoya,30.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-09-17
+Dry Maize,White Maize,-,-,Kapkwen,35.56/Kg,55.00/Kg,27000.00,Bomet,2024-09-17
+Dry Maize,White Maize,-,-,Voi Retail,-,45.00/Kg,180.00,Taita-Taveta,2024-09-17
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,7200.00,Makueni,2024-09-17
+Dry Maize,Yellow Maize,-,-,Gikomba,-,110.00/Kg,,Nairobi,2024-09-17
+Dry Maize,White Maize,-,-,Gikomba,38.89/Kg,55.00/Kg,,Nairobi,2024-09-17
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,630.00,Meru,2024-09-17
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-17
+Dry Maize,White Maize,-,-,Kapsabet Market,31.11/Kg,40.00/Kg,10000.00,Nandi,2024-09-17
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,28000.00,Siaya,2024-09-17
+Dry Maize,White Maize,-,-,Chuka,33.33/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-09-17
+Dry Maize,Mixed-Traditional,-,-,Bondeni,30.00/Kg,40.00/Kg,500.00,Trans-Nzoia,2024-09-17
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,30.00/Kg,20.00/Kg,30.00,Kitui,2024-09-17
+Dry Maize,White Maize,-,-,Mbale,31.11/Kg,37.50/Kg,14000.00,Vihiga,2024-09-16
+Dry Maize,White Maize,-,-,Kisasi,35.00/Kg,38.00/Kg,,Kitui,2024-09-16
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,13860.00,Siaya,2024-09-16
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,4500.00,Siaya,2024-09-16
+Dry Maize,White Maize,-,-,Chwele,24.00/Kg,40.00/Kg,,Bungoma,2024-09-16
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-16
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-09-16
+Dry Maize,Yellow Maize,-,-,Gikomba,-,105.00/Kg,,Nairobi,2024-09-16
+Dry Maize,White Maize,-,-,Gikomba,38.89/Kg,55.00/Kg,,Nairobi,2024-09-16
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-16
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-09-16
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1108.00,Nakuru,2024-09-16
+Dry Maize,Yellow Maize,-,-,Kibuye,75.56/Kg,85.00/Kg,,Kisumu,2024-09-15
+Dry Maize,White Maize,-,-,Kibuye,37.78/Kg,42.50/Kg,,Kisumu,2024-09-15
+Dry Maize,White Maize,-,-,Muhoroni,40.00/Kg,50.00/Kg,5000.00,Kisumu,2024-09-15
+Dry Maize,White Maize,-,-,Kibiok,35.00/Kg,40.00/Kg,9000.00,Nandi,2024-09-15
+Dry Maize,White Maize,-,-,Mabera,-,32.00/Kg,50000.00,Migori,2024-09-15
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,65000.00,Migori,2024-09-14
+Dry Maize,White Maize,-,-,Mukuyu Market,38.89/Kg,44.44/Kg,,Muranga,2024-09-14
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1400.00,Nakuru,2024-09-14
+Dry Maize,White Maize,-,-,Marindi,31.11/Kg,35.56/Kg,1800.00,Migori,2024-09-14
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,4200.00,Vihiga,2024-09-13
+Dry Maize,White Maize,-,-,Ndanai,34.44/Kg,45.00/Kg,3600.00,Bomet,2024-09-13
+Dry Maize,White Maize,-,-,Mumias,35.56/Kg,42.50/Kg,3600.00,Kakamega,2024-09-13
+Dry Maize,Mixed-Traditional,-,-,Mumias,28.89/Kg,37.50/Kg,,Kakamega,2024-09-13
+Dry Maize,White Maize,-,-,Bungoma town,30.00/Kg,40.00/Kg,6200.00,Bungoma,2024-09-13
+Dry Maize,White Maize,-,-,Bondo,40.00/Kg,50.00/Kg,7000.00,Siaya,2024-09-13
+Dry Maize,White Maize,-,-,Kerugoya,30.00/Kg,50.00/Kg,5000.00,Kirinyaga,2024-09-13
+Dry Maize,Mixed-Traditional,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-09-13
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-09-13
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,55.00/Kg,,Nairobi,2024-09-13
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-13
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,30.00/Kg,40.00/Kg,8800.00,Kirinyaga,2024-09-13
+Dry Maize,White Maize,-,-,Mogogosiek Market,33.89/Kg,50.00/Kg,15000.00,Bomet,2024-09-12
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,,Vihiga,2024-09-12
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-09-12
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-12
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-09-12
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-12
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-09-12
+Dry Maize,Mixed-Traditional,-,-,Kimilili town,40.00/Kg,45.00/Kg,3000.00,Bungoma,2024-09-12
+Dry Maize,Mixed-Traditional,-,-,Mwatate,30.00/Kg,35.00/Kg,,Taita-Taveta,2024-09-12
+Dry Maize,White Maize,-,-,Mbale,31.11/Kg,37.50/Kg,22000.00,Vihiga,2024-09-11
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,25.00/Kg,30.00/Kg,8500.00,Kirinyaga,2024-09-11
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,25.00/Kg,15.00/Kg,8500.00,Kirinyaga,2024-09-11
+Dry Maize,White Maize,-,-,Mulot,33.33/Kg,45.00/Kg,15000.00,Bomet,2024-09-11
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-11
+Dry Maize,White Maize,-,-,Kakamega Town,26.67/Kg,37.50/Kg,900.00,Kakamega,2024-09-11
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1400.00,Meru,2024-09-11
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-09-11
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-09-11
+Dry Maize,White Maize,-,-,Serem - Nandi,31.25/Kg,54.17/Kg,20000.00,Nandi,2024-09-11
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-11
+Dry Maize,Mixed-Traditional,-,-,Embu Town,22.22/Kg,50.00/Kg,5000.00,Embu,2024-09-11
+Dry Maize,Mixed-Traditional,-,-,Makutano Embu,-,100.00/Kg,,Embu,2024-09-11
+Dry Maize,White Maize,-,-,Webuye town,60.00/Kg,80.00/Kg,30000.00,Bungoma,2024-09-11
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1400.00,Nakuru,2024-09-11
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,45000.00,Migori,2024-09-11
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-09-10
+Dry Maize,White Maize,-,-,Bondo,40.00/Kg,50.00/Kg,12000.00,Siaya,2024-09-10
+Dry Maize,Mixed-Traditional,-,-,Mabera,-,32.00/Kg,50000.00,Migori,2024-09-10
+Dry Maize,Mixed-Traditional,-,-,Ahero,45.00/Kg,50.00/Kg,7000.00,Kisumu,2024-09-10
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,,Vihiga,2024-09-10
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1300.00,Nakuru,2024-09-10
+Dry Maize,Mixed-Traditional,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-09-10
+Dry Maize,White Maize,-,-,Ngurubani Market,24.44/Kg,30.00/Kg,9800.00,Kirinyaga,2024-09-10
+Dry Maize,Mixed-Traditional,-,-,Kapsabet Market,31.11/Kg,40.00/Kg,10000.00,Nandi,2024-09-10
+Dry Maize,White Maize,-,-,Kapkwen,34.44/Kg,55.00/Kg,27000.00,Bomet,2024-09-10
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,22500.00,Makueni,2024-09-10
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,22500.00,Meru,2024-09-10
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-10
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,810.00,Meru,2024-09-10
+Dry Maize,Yellow Maize,-,-,Gikomba,-,110.00/Kg,,Nairobi,2024-09-10
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-09-10
+Dry Maize,White Maize,-,-,Chumvini Livestock Market,20.00/Kg,27.78/Kg,11000.00,Taita-Taveta,2024-09-10
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-10
+Dry Maize,Mixed-Traditional,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-09-10
+Dry Maize,Mixed-Traditional,-,-,Bondeni,37.50/Kg,45.00/Kg,500.00,Trans-Nzoia,2024-09-10
+Dry Maize,White Maize,-,-,Chebunyo,33.33/Kg,45.00/Kg,45000.00,Bomet,2024-09-09
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,42.50/Kg,2000.00,Uasin-Gishu,2024-09-09
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,2400.00,Vihiga,2024-09-09
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-09
+Dry Maize,Yellow Maize,-,-,Gikomba,-,115.00/Kg,,Nairobi,2024-09-09
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,55.00/Kg,,Nairobi,2024-09-09
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,950.00,Kirinyaga,2024-09-09
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,1800.00,Vihiga,2024-09-08
+Dry Maize,Mixed-Traditional,-,-,Mumias,-,35.00/Kg,,Kakamega,2024-09-08
+Dry Maize,White Maize,-,-,Mumias,33.33/Kg,42.50/Kg,1800.00,Kakamega,2024-09-08
+Dry Maize,Yellow Maize,-,-,Kibuye,-,70.00/Kg,,Kisumu,2024-09-08
+Dry Maize,White Maize,-,-,Kibuye,37.78/Kg,42.50/Kg,,Kisumu,2024-09-08
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-08
+Dry Maize,Mixed-Traditional,-,-,Mwatate,33.33/Kg,35.00/Kg,,Taita-Taveta,2024-09-08
+Dry Maize,White Maize,-,-,Mulot,34.44/Kg,45.00/Kg,15000.00,Bomet,2024-09-07
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,55000.00,Migori,2024-09-07
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1608.00,Nakuru,2024-09-07
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,24.44/Kg,30.00/Kg,9800.00,Kirinyaga,2024-09-07
+Dry Maize,White Maize,-,-,Serem - Vihiga,28.89/Kg,32.61/Kg,6000.00,Vihiga,2024-09-07
+Dry Maize,White Maize,-,-,Keroka,32.00/Kg,34.44/Kg,85000.00,Nyamira,2024-09-07
+Dry Maize,White Maize,-,-,Kapsabet Market,35.56/Kg,40.00/Kg,10000.00,Nandi,2024-09-07
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,5000.00,Siaya,2024-09-07
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-07
+Dry Maize,Mixed-Traditional,-,-,Makutano Embu,-,50.00/Kg,,Embu,2024-09-07
+Dry Maize,White Maize,-,-,Ngurubani Market,24.44/Kg,30.00/Kg,6500.00,Kirinyaga,2024-09-07
+Dry Maize,White Maize,-,-,Cheptulu,-,42.50/Kg,4000.00,Vihiga,2024-09-06
+Dry Maize,Mixed-Traditional,-,-,Mumias,-,32.50/Kg,,Kakamega,2024-09-06
+Dry Maize,White Maize,-,-,Mumias,33.33/Kg,42.50/Kg,3600.00,Kakamega,2024-09-06
+Dry Maize,Mixed-Traditional,-,-,Majengo Vihiga,33.33/Kg,40.00/Kg,12000.00,Vihiga,2024-09-06
+Dry Maize,Yellow Maize,-,-,Kabati - Muranga,144.44/Kg,166.67/Kg,,Muranga,2024-09-06
+Dry Maize,White Maize,-,-,Kabati - Muranga,40.00/Kg,46.67/Kg,,Muranga,2024-09-06
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-09-06
+Dry Maize,White Maize,-,-,Bungoma town,30.00/Kg,35.00/Kg,7000.00,Bungoma,2024-09-06
+Dry Maize,White Maize,-,-,Voi Retail,-,45.00/Kg,180.00,Taita-Taveta,2024-09-06
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-06
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-06
+Dry Maize,Yellow Maize,-,-,Gikomba,-,110.00/Kg,,Nairobi,2024-09-06
+Dry Maize,White Maize,-,-,Gikomba,-,50.00/Kg,,Nairobi,2024-09-06
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,35.00/Kg,40.00/Kg,72000.00,Kitui,2024-09-06
+Dry Maize,White Maize,-,-,Rongo,26.67/Kg,27.65/Kg,4500.00,Migori,2024-09-05
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,2700.00,Siaya,2024-09-05
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,4800.00,Siaya,2024-09-05
+Dry Maize,White Maize,-,-,Kipkaren,40.00/Kg,60.00/Kg,5000.00,Kakamega,2024-09-05
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-09-05
+Dry Maize,Mixed-Traditional,-,-,Kimilili town,32.00/Kg,36.00/Kg,7000.00,Bungoma,2024-09-05
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-05
+Dry Maize,Yellow Maize,-,-,Gikomba,-,110.00/Kg,,Nairobi,2024-09-05
+Dry Maize,White Maize,-,-,Gikomba,-,50.00/Kg,,Nairobi,2024-09-05
+Dry Maize,White Maize,-,-,Kapsowar,40.00/Kg,60.00/Kg,1800.00,Elgeyo-Marakwet,2024-09-05
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-09-05
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-05
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,2000.00,Uasin-Gishu,2024-09-05
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,45000.00,Migori,2024-09-05
+Dry Maize,Mixed-Traditional,-,-,Mbale,30.00/Kg,34.03/Kg,22000.00,Vihiga,2024-09-04
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,28000.00,Siaya,2024-09-04
+Dry Maize,White Maize,-,-,Cheptulu,35.56/Kg,45.00/Kg,3400.00,Vihiga,2024-09-04
+Dry Maize,White Maize,-,-,Serem - Vihiga,28.89/Kg,34.78/Kg,9000.00,Vihiga,2024-09-04
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-04
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1900.00,Meru,2024-09-04
+Dry Maize,Yellow Maize,-,-,Gikomba,-,110.00/Kg,,Nairobi,2024-09-04
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,50.00/Kg,,Nairobi,2024-09-04
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-04
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,4000.00,Siaya,2024-09-04
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,50.00/Kg,4600.00,Kirinyaga,2024-09-03
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,27000.00,Meru,2024-09-03
+Dry Maize,White Maize,-,-,Kapsabet Market,35.56/Kg,36.00/Kg,2000.00,Nandi,2024-09-03
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,540.00,Meru,2024-09-03
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-03
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,60.00/Kg,,Nairobi,2024-09-03
+Dry Maize,Yellow Maize,-,-,Gikomba,-,110.00/Kg,,Nairobi,2024-09-03
+Dry Maize,White Maize,-,-,Gikomba,-,50.00/Kg,,Nairobi,2024-09-03
+Dry Maize,White Maize,-,-,Ngurubani Market,24.44/Kg,30.00/Kg,8500.00,Kirinyaga,2024-09-03
+Dry Maize,Mixed-Traditional,-,-,Akala,33.33/Kg,41.67/Kg,1200.00,Siaya,2024-09-03
+Dry Maize,Mixed-Traditional,-,-,Akala,33.33/Kg,41.67/Kg,4000.00,Siaya,2024-09-03
+Dry Maize,White Maize,-,-,Ndanai,33.33/Kg,36.00/Kg,14000.00,Bomet,2024-09-03
+Dry Maize,White Maize,-,-,Ndanai,33.33/Kg,36.00/Kg,27000.00,Bomet,2024-09-03
+Dry Maize,White Maize,-,-,Kapsabet Market,32.00/Kg,36.00/Kg,10000.00,Nandi,2024-09-03
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1500.00,Nakuru,2024-09-03
+Dry Maize,White Maize,-,-,Ahero,45.00/Kg,50.00/Kg,7000.00,Kisumu,2024-09-02
+Dry Maize,Mixed-Traditional,-,-,Ahero,45.00/Kg,50.00/Kg,3000.00,Kisumu,2024-09-02
+Dry Maize,White Maize,-,-,Chebunyo,34.44/Kg,45.00/Kg,14000.00,Bomet,2024-09-02
+Dry Maize,Mixed-Traditional,-,-,Gakoromone,32.22/Kg,40.00/Kg,4000.00,Meru,2024-09-02
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-02
+Dry Maize,White Maize,-,-,Gikomba,40.00/Kg,55.00/Kg,,Nairobi,2024-09-02
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-09-02
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-09-02
+Dry Maize,Mixed-Traditional,-,-,Mabera,-,32.00/Kg,50000.00,Migori,2024-09-02
+Dry Maize,White Maize,-,-,Kibiok,45.00/Kg,50.00/Kg,9000.00,Nandi,2024-09-01
+Dry Maize,White Maize,-,-,Khayega,26.67/Kg,31.11/Kg,3150.00,Kakamega,2024-09-01
+Dry Maize,Yellow Maize,-,-,Kibuye,-,60.00/Kg,,Kisumu,2024-09-01
+Dry Maize,White Maize,-,-,Kibuye,37.78/Kg,42.50/Kg,,Kisumu,2024-09-01
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-09-01
+Dry Maize,White Maize,-,-,Mukuyu Market,35.56/Kg,44.44/Kg,,Muranga,2024-09-01
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,7500.00,Migori,2024-09-01
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-31
+Dry Maize,Mixed-Traditional,-,-,Akala,40.00/Kg,50.00/Kg,14000.00,Siaya,2024-08-31
+Dry Maize,White Maize,-,-,Kapsabet Market,35.56/Kg,36.00/Kg,20000.00,Nandi,2024-08-31
+Dry Maize,Mixed-Traditional,-,-,Makutano Embu,-,50.00/Kg,,Embu,2024-08-31
+Dry Maize,Mixed-Traditional,-,-,Ugunja,-,40.00/Kg,,Siaya,2024-08-31
+Dry Maize,White Maize,-,-,Ugunja,42.22/Kg,50.00/Kg,,Siaya,2024-08-31
+Dry Maize,White Maize,-,-,Bondo,36.67/Kg,50.00/Kg,28000.00,Siaya,2024-08-30
+Dry Maize,White Maize,-,-,Bungoma town,30.00/Kg,45.00/Kg,6500.00,Bungoma,2024-08-30
+Dry Maize,White Maize,-,-,Ndanai,33.33/Kg,38.00/Kg,27000.00,Bomet,2024-08-30
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-08-30
+Dry Maize,White Maize,-,-,Muhoroni,40.00/Kg,45.00/Kg,2500.00,Kisumu,2024-08-30
+Dry Maize,White Maize,-,-,Keroka,31.11/Kg,50.00/Kg,32000.00,Nyamira,2024-08-30
+Dry Maize,White Maize,-,-,Mumias,28.89/Kg,37.50/Kg,,Kakamega,2024-08-30
+Dry Maize,White Maize,-,-,Cheptulu,36.11/Kg,45.00/Kg,2900.00,Vihiga,2024-08-30
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-30
+Dry Maize,White Maize,-,-,Voi Retail,-,40.00/Kg,360.00,Taita-Taveta,2024-08-30
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-30
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,2000.00,Uasin-Gishu,2024-08-30
+Dry Maize,White Maize,-,-,Ngurubani Market,25.00/Kg,30.00/Kg,5500.00,Kirinyaga,2024-08-30
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-08-30
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,24.44/Kg,30.00/Kg,9000.00,Kirinyaga,2024-08-30
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1400.00,Nakuru,2024-08-29
+Dry Maize,White Maize,-,-,Mabera,-,32.00/Kg,100000.00,Migori,2024-08-29
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-29
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,13500.00,Siaya,2024-08-29
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,3600.00,Siaya,2024-08-29
+Dry Maize,White Maize,-,-,Kutus,30.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-08-29
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-29
+Dry Maize,Mixed-Traditional,-,-,Nyamakima,40.00/Kg,55.00/Kg,,Nairobi,2024-08-29
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-29
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-08-29
+Dry Maize,White Maize,-,-,Mogogosiek Market,40.00/Kg,48.00/Kg,90.00,Bomet,2024-08-29
+Dry Maize,Mixed-Traditional,-,-,Mwatate,30.00/Kg,35.00/Kg,,Taita-Taveta,2024-08-29
+Dry Maize,White Maize,-,-,Serem - Nandi,31.25/Kg,41.67/Kg,20000.00,Nandi,2024-08-29
+Dry Maize,White Maize,-,-,Mwingi Town,38.89/Kg,50.00/Kg,18000.00,Kitui,2024-08-29
+Dry Maize,Mixed-Traditional,-,-,Makutano Embu,-,45.00/Kg,,Embu,2024-08-28
+Dry Maize,White Maize,-,-,Taveta Retail Market,30.00/Kg,35.00/Kg,2000.00,Taita-Taveta,2024-08-28
+Dry Maize,White Maize,-,-,Miruka,28.89/Kg,40.00/Kg,72000.00,Nyamira,2024-08-28
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-28
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,3100.00,Siaya,2024-08-28
+Dry Maize,White Maize,-,-,Serem - Vihiga,31.11/Kg,34.78/Kg,8000.00,Vihiga,2024-08-28
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,3500.00,Siaya,2024-08-28
+Dry Maize,White Maize,-,-,Mulot,32.22/Kg,40.00/Kg,15000.00,Bomet,2024-08-28
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-08-28
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,43.00/Kg,,Nairobi,2024-08-28
+Dry Maize,Mixed-Traditional,-,-,Cheptulu,35.56/Kg,42.50/Kg,3000.00,Vihiga,2024-08-28
+Dry Maize,White Maize,-,-,Molo,-,2700.00/Kg,1400.00,Nakuru,2024-08-28
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,22.22/Kg,30.00/Kg,9000.00,Kirinyaga,2024-08-28
+Dry Maize,White Maize,-,-,Kisasi,30.00/Kg,40.00/Kg,,Kitui,2024-08-27
+Dry Maize,White Maize,-,-,Cheptulu,35.56/Kg,42.50/Kg,2400.00,Vihiga,2024-08-27
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-08-27
+Dry Maize,Mixed-Traditional,-,-,Isebania Market,-,32.00/Kg,45000.00,Migori,2024-08-27
+Dry Maize,White Maize,-,-,Ahero,45.00/Kg,50.00/Kg,7000.00,Kisumu,2024-08-27
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-27
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,7200.00,Makueni,2024-08-27
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-27
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,720.00,Meru,2024-08-27
+Dry Maize,White Maize,-,-,Kabiyet Market,45.00/Kg,50.00/Kg,1500.00,Nandi,2024-08-27
+Dry Maize,Mixed-Traditional,-,-,Kapsabet Market,35.56/Kg,36.00/Kg,10000.00,Nandi,2024-08-27
+Dry Maize,White Maize,-,-,Kapkwen,33.33/Kg,50.00/Kg,22500.00,Bomet,2024-08-27
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-27
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,23400.00,Meru,2024-08-27
+Dry Maize,White Maize,-,-,Gikomba,36.67/Kg,55.00/Kg,,Nairobi,2024-08-27
+Dry Maize,Mixed-Traditional,-,-,Bondeni,30.00/Kg,35.00/Kg,600.00,Trans-Nzoia,2024-08-27
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1500.00,Nakuru,2024-08-27
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,50.00/Kg,2000.00,Uasin-Gishu,2024-08-27
+Dry Maize,White Maize,-,-,Ngurubani Market,20.00/Kg,30.00/Kg,8580.00,Kirinyaga,2024-08-27
+Dry Maize,White Maize,-,-,Chebunyo,31.11/Kg,45.00/Kg,21000.00,Bomet,2024-08-26
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,41.53/Kg,7200.00,Siaya,2024-08-26
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,3200.00,Siaya,2024-08-26
+Dry Maize,Mixed-Traditional,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-26
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-26
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-26
+Dry Maize,White Maize,-,-,Nyamakima,76.00/Kg,110.00/Kg,,Nairobi,2024-08-26
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-08-26
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-08-26
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,2600.00,Kirinyaga,2024-08-26
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,5000.00,Uasin-Gishu,2024-08-26
+Dry Maize,White Maize,-,-,Kibiok,50.00/Kg,55.00/Kg,9000.00,Nandi,2024-08-25
+Dry Maize,White Maize,-,-,Keroka,44.44/Kg,50.00/Kg,56000.00,Nyamira,2024-08-25
+Dry Maize,Mixed-Traditional,-,-,Mumias,26.67/Kg,40.00/Kg,2700.00,Kakamega,2024-08-25
+Dry Maize,Mixed-Traditional,-,-,Kibuye,-,37.50/Kg,,Kisumu,2024-08-25
+Dry Maize,Yellow Maize,-,-,Kibuye,57.78/Kg,65.00/Kg,,Kisumu,2024-08-25
+Dry Maize,White Maize,-,-,Kibuye,37.78/Kg,42.50/Kg,,Kisumu,2024-08-25
+Dry Maize,White Maize,-,-,Mghange,30.00/Kg,45.00/Kg,,Taita-Taveta,2024-08-25
+Dry Maize,Mixed-Traditional,-,-,Mwatate,33.33/Kg,35.00/Kg,,Taita-Taveta,2024-08-25
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,65000.00,Migori,2024-08-25
+Dry Maize,White Maize,-,-,Serem - Nandi,31.25/Kg,41.67/Kg,20000.00,Nandi,2024-08-24
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,4000.00,Siaya,2024-08-24
+Dry Maize,White Maize,-,-,Kapsabet Market,35.56/Kg,36.00/Kg,7000.00,Nandi,2024-08-24
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1100.00,Nakuru,2024-08-24
+Dry Maize,White Maize,-,-,Serem - Vihiga,31.11/Kg,34.78/Kg,9000.00,Vihiga,2024-08-24
+Dry Maize,White Maize,-,-,Kamukuywa,35.56/Kg,42.50/Kg,15000.00,Bungoma,2024-08-24
+Dry Maize,Mixed-Traditional,-,-,Mumias,26.67/Kg,40.00/Kg,1800.00,Kakamega,2024-08-23
+Dry Maize,White Maize,-,-,Bondo,36.67/Kg,50.00/Kg,21000.00,Siaya,2024-08-23
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,3400.00,Vihiga,2024-08-23
+Dry Maize,White Maize,-,-,Ngurubani Market,25.56/Kg,30.00/Kg,7500.00,Kirinyaga,2024-08-23
+Dry Maize,White Maize,-,-,Bungoma town,30.00/Kg,40.00/Kg,8000.00,Bungoma,2024-08-23
+Dry Maize,White Maize,-,-,Ndanai,31.11/Kg,36.00/Kg,18000.00,Bomet,2024-08-23
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,24.44/Kg,30.00/Kg,8500.00,Kirinyaga,2024-08-23
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-23
+Dry Maize,White Maize,-,-,Mogogosiek Market,34.44/Kg,55.00/Kg,12000.00,Bomet,2024-08-23
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-08-23
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,2000.00,Vihiga,2024-08-22
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,35.56/Kg,40.00/Kg,9600.00,Kitui,2024-08-22
+Dry Maize,White Maize,-,-,Aram,41.53/Kg,46.15/Kg,4500.00,Siaya,2024-08-22
+Dry Maize,Mixed-Traditional,-,-,Aram,41.53/Kg,46.15/Kg,3600.00,Siaya,2024-08-22
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-08-22
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-22
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,6000.00,Migori,2024-08-22
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,32.22/Kg,35.00/Kg,8500.00,Kirinyaga,2024-08-22
+Dry Maize,White Maize,-,-,Mwingi Town,38.89/Kg,50.00/Kg,9000.00,Kitui,2024-08-21
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,2600.00,Vihiga,2024-08-21
+Dry Maize,White Maize,-,-,Sabatia,25.00/Kg,30.00/Kg,95000.00,Kakamega,2024-08-21
+Dry Maize,White Maize,-,-,Serem - Nandi,33.33/Kg,37.50/Kg,89000.00,Nandi,2024-08-21
+Dry Maize,White Maize,-,-,Taveta Retail Market,30.00/Kg,35.00/Kg,5000.00,Taita-Taveta,2024-08-21
+Dry Maize,White Maize,-,-,Kabiyet Market,45.00/Kg,50.00/Kg,1000.00,Nandi,2024-08-21
+Dry Maize,Yellow Maize,-,-,Miruka,-,42.50/Kg,540.00,Nyamira,2024-08-21
+Dry Maize,White Maize,-,-,Miruka,28.89/Kg,37.50/Kg,54000.00,Nyamira,2024-08-21
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-21
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-08-21
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-21
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,4000.00,Siaya,2024-08-21
+Dry Maize,Mixed-Traditional,-,-,Makutano Embu,40.00/Kg,45.00/Kg,,Embu,2024-08-21
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,-,40.00/Kg,,Muranga,2024-08-21
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,50.00/Kg,6300.00,Uasin-Gishu,2024-08-21
+Dry Maize,White Maize,-,-,Bondo,38.89/Kg,55.00/Kg,28000.00,Siaya,2024-08-20
+Dry Maize,Mixed-Traditional,-,-,Kirwara Market,-,50.00/Kg,90.00,Muranga,2024-08-20
+Dry Maize,White Maize,-,-,Ngurubani Market,31.11/Kg,35.00/Kg,8500.00,Kirinyaga,2024-08-20
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,900.00,Meru,2024-08-20
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,19800.00,Meru,2024-08-20
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,50.00/Kg,4500.00,Kirinyaga,2024-08-20
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-20
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-20
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-20
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-20
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,3000.00,Uasin-Gishu,2024-08-20
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,41.53/Kg,13500.00,Siaya,2024-08-19
+Dry Maize,Mixed-Traditional,-,-,Aram,36.11/Kg,41.53/Kg,4500.00,Siaya,2024-08-19
+Dry Maize,White Maize,-,-,Chebunyo,31.11/Kg,40.00/Kg,18000.00,Bomet,2024-08-19
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,68.00/Kg,,Nairobi,2024-08-19
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-19
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-19
+Dry Maize,White Maize,-,-,Kutus,30.00/Kg,35.00/Kg,0.00,Kirinyaga,2024-08-19
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1500.00,Nakuru,2024-08-19
+Dry Maize,White Maize,-,-,Kibuye,45.56/Kg,42.50/Kg,,Kisumu,2024-08-18
+Dry Maize,White Maize,-,-,Khayega,31.11/Kg,35.56/Kg,3600.00,Kakamega,2024-08-18
+Dry Maize,White Maize,-,-,Mabera,28.00/Kg,32.00/Kg,10000.00,Migori,2024-08-18
+Dry Maize,White Maize,-,-,Kibiok,45.00/Kg,50.00/Kg,10000.00,Nandi,2024-08-18
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,45000.00,Migori,2024-08-18
+Dry Maize,White Maize,-,-,Serem - Vihiga,31.11/Kg,34.78/Kg,8000.00,Vihiga,2024-08-17
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,4000.00,Siaya,2024-08-17
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,33.33/Kg,38.89/Kg,,Muranga,2024-08-17
+Dry Maize,White Maize,-,-,Ngurubani Market,32.22/Kg,35.00/Kg,8200.00,Kirinyaga,2024-08-16
+Dry Maize,White Maize,-,-,Mumias,31.11/Kg,40.00/Kg,900.00,Kakamega,2024-08-16
+Dry Maize,Mixed-Traditional,-,-,Mumias,26.67/Kg,35.56/Kg,900.00,Kakamega,2024-08-16
+Dry Maize,White Maize,-,-,Kisasi,29.00/Kg,35.00/Kg,,Kitui,2024-08-16
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,28000.00,Siaya,2024-08-16
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,55.00/Kg,4500.00,Kirinyaga,2024-08-16
+Dry Maize,White Maize,-,-,Bungoma town,30.00/Kg,40.00/Kg,7800.00,Bungoma,2024-08-16
+Dry Maize,Mixed-Traditional,-,-,Mbale,35.96/Kg,34.03/Kg,22000.00,Vihiga,2024-08-16
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,3000.00,Vihiga,2024-08-16
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,6300.00,Uasin-Gishu,2024-08-16
+Dry Maize,White Maize,-,-,Kawangware,41.11/Kg,-,,Nairobi,2024-08-16
+Dry Maize,Mixed-Traditional,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-08-16
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1300.00,Nakuru,2024-08-16
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,31.11/Kg,35.00/Kg,9000.00,Kirinyaga,2024-08-16
+Dry Maize,White Maize,-,-,Mabera,28.00/Kg,32.00/Kg,50000.00,Migori,2024-08-15
+Dry Maize,White Maize,-,-,Katito,40.00/Kg,50.00/Kg,6500.00,Kisumu,2024-08-15
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,41.53/Kg,18000.00,Siaya,2024-08-15
+Dry Maize,Mixed-Traditional,-,-,Aram,37.22/Kg,46.15/Kg,4500.00,Siaya,2024-08-15
+Dry Maize,Mixed-Traditional,-,-,Kiria-ini Market,100.00/Kg,100.00/Kg,900.00,Muranga,2024-08-15
+Dry Maize,White Maize,-,-,Kutus,30.00/Kg,35.00/Kg,0.00,Kirinyaga,2024-08-15
+Dry Maize,White Maize,-,-,Mogogosiek Market,37.50/Kg,50.00/Kg,180.00,Bomet,2024-08-15
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-15
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-08-15
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-15
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,4000.00,Siaya,2024-08-15
+Dry Maize,White Maize,-,-,Kawangware,41.11/Kg,-,,Nairobi,2024-08-15
+Dry Maize,White Maize,-,-,Mwingi Town,38.89/Kg,50.00/Kg,9000.00,Kitui,2024-08-14
+Dry Maize,White Maize,-,-,Taveta Retail Market,30.00/Kg,35.00/Kg,,Taita-Taveta,2024-08-14
+Dry Maize,Mixed-Traditional,-,-,Mbale,38.20/Kg,34.39/Kg,22000.00,Vihiga,2024-08-14
+Dry Maize,White Maize,-,-,Mulot,33.33/Kg,40.00/Kg,150000.00,Bomet,2024-08-14
+Dry Maize,Yellow Maize,-,-,Miruka,42.50/Kg,45.00/Kg,900.00,Nyamira,2024-08-14
+Dry Maize,White Maize,-,-,Miruka,31.11/Kg,42.50/Kg,6300.00,Nyamira,2024-08-14
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1200.00,Nakuru,2024-08-14
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-08-14
+Dry Maize,White Maize,-,-,Makutano Embu,33.33/Kg,45.00/Kg,,Embu,2024-08-14
+Dry Maize,White Maize,-,-,Voi Retail,-,45.00/Kg,180.00,Taita-Taveta,2024-08-14
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,-,50.00/Kg,,Muranga,2024-08-14
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-14
+Dry Maize,White Maize,-,-,Gikomba,-,120.00/Kg,,Nairobi,2024-08-14
+Dry Maize,White Maize,-,-,Engineer,42.00/Kg,60.00/Kg,9000.00,Nyandarua,2024-08-14
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,31.11/Kg,38.00/Kg,8200.00,Kirinyaga,2024-08-14
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,65000.00,Migori,2024-08-14
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,9000.00,Kirinyaga,2024-08-13
+Dry Maize,Mixed-Traditional,-,-,Kiria-ini Market,100.00/Kg,100.00/Kg,1000.00,Muranga,2024-08-13
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,55.00/Kg,5000.00,Kirinyaga,2024-08-13
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,2000.00,Uasin-Gishu,2024-08-13
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,6000.00,Makueni,2024-08-13
+Dry Maize,White Maize,-,-,Bondo,38.89/Kg,50.00/Kg,28000.00,Siaya,2024-08-13
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,720.00,Meru,2024-08-13
+Dry Maize,White Maize,-,-,Kabiyet Market,40.00/Kg,50.00/Kg,5000.00,Nandi,2024-08-13
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-13
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-13
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-13
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,-,,Nairobi,2024-08-13
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-08-13
+Dry Maize,White Maize,-,-,Molo,-,30.00/Kg,1100.00,Nakuru,2024-08-13
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1500.00,Nakuru,2024-08-13
+Dry Maize,Yellow Maize,-,-,Kibuye,-,75.00/Kg,,Kisumu,2024-08-13
+Dry Maize,White Maize,-,-,Rongo,40.00/Kg,31.60/Kg,4500.00,Migori,2024-08-12
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,7200.00,Siaya,2024-08-12
+Dry Maize,Mixed-Traditional,-,-,Aram,36.67/Kg,46.15/Kg,3600.00,Siaya,2024-08-12
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,2400.00,Vihiga,2024-08-12
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-08-12
+Dry Maize,White Maize,-,-,Chebunyo,33.33/Kg,45.00/Kg,27000.00,Bomet,2024-08-12
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-12
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-12
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-12
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-08-12
+Dry Maize,White Maize,-,-,Kutus,30.00/Kg,35.00/Kg,0.00,Kirinyaga,2024-08-12
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-08-12
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,6300.00,Uasin-Gishu,2024-08-12
+Dry Maize,White Maize,-,-,Kibuye,37.78/Kg,42.50/Kg,10800.00,Kisumu,2024-08-11
+Dry Maize,White Maize,-,-,Mumias,28.89/Kg,35.00/Kg,900.00,Kakamega,2024-08-11
+Dry Maize,White Maize,-,-,Mumias,28.89/Kg,45.00/Kg,7200.00,Kakamega,2024-08-11
+Dry Maize,Mixed-Traditional,-,-,Mumias,28.89/Kg,45.00/Kg,5400.00,Kakamega,2024-08-11
+Dry Maize,White Maize,-,-,Mabera,-,32.00/Kg,30000.00,Migori,2024-08-11
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-11
+Dry Maize,White Maize,-,-,Kibiok,45.00/Kg,50.00/Kg,14000.00,Nandi,2024-08-11
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,70.00/Kg,,Kirinyaga,2024-08-10
+Dry Maize,Mixed-Traditional,-,-,Mwatate,30.00/Kg,35.00/Kg,,Taita-Taveta,2024-08-10
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,20000.00,Migori,2024-08-10
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,50000.00,Migori,2024-08-10
+Dry Maize,White Maize,-,-,Sabatia,22.22/Kg,29.17/Kg,90000.00,Kakamega,2024-08-10
+Dry Maize,White Maize,-,-,Taveta Retail Market,30.00/Kg,35.00/Kg,5000.00,Taita-Taveta,2024-08-10
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-10
+Dry Maize,White Maize,-,-,Mukuyu Market,32.22/Kg,35.56/Kg,,Muranga,2024-08-10
+Dry Maize,White Maize,-,-,Rongo,37.78/Kg,31.60/Kg,4500.00,Migori,2024-08-09
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,9000.00,Kirinyaga,2024-08-09
+Dry Maize,White Maize,-,-,Mumias,37.78/Kg,40.00/Kg,1800.00,Kakamega,2024-08-09
+Dry Maize,White Maize,-,-,Bungoma town,30.00/Kg,40.00/Kg,8000.00,Bungoma,2024-08-09
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-09
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-09
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-08-09
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-09
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-08-09
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1500.00,Nakuru,2024-08-09
+Dry Maize,Yellow Maize,-,-,Katito,75.00/Kg,150.00/Kg,1500.00,Kisumu,2024-08-08
+Dry Maize,White Maize,-,-,Kitale Municipality Market,35.00/Kg,40.00/Kg,2000.00,Trans-Nzoia,2024-08-08
+Dry Maize,White Maize,-,-,Katito,45.00/Kg,50.00/Kg,4500.00,Kisumu,2024-08-08
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,41.53/Kg,5400.00,Siaya,2024-08-08
+Dry Maize,Mixed-Traditional,-,-,Aram,36.00/Kg,46.15/Kg,4500.00,Siaya,2024-08-08
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1400.00,Nakuru,2024-08-08
+Dry Maize,White Maize,-,-,Mabera,28.00/Kg,36.00/Kg,5000.00,Migori,2024-08-08
+Dry Maize,White Maize,-,-,Kutus,30.00/Kg,35.00/Kg,0.00,Kirinyaga,2024-08-08
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,55.00/Kg,4500.00,Kirinyaga,2024-08-08
+Dry Maize,White Maize,-,-,Mogogosiek Market,40.00/Kg,48.00/Kg,180.00,Bomet,2024-08-08
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-08
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-08
+Dry Maize,White Maize,-,-,Gikomba,-,60.00/Kg,,Nairobi,2024-08-08
+Dry Maize,White Maize,-,-,Kimilili town,40.00/Kg,50.00/Kg,7000.00,Bungoma,2024-08-08
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,28000.00,Siaya,2024-08-08
+Dry Maize,White Maize,-,-,Mwingi Town,44.44/Kg,50.00/Kg,6000.00,Kitui,2024-08-08
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,2000.00,Uasin-Gishu,2024-08-08
+Dry Maize,White Maize,-,-,Taveta Retail Market,30.00/Kg,35.00/Kg,360.00,Taita-Taveta,2024-08-07
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,70000.00,Migori,2024-08-07
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,34.00/Kg,45.00/Kg,8000.00,Kirinyaga,2024-08-07
+Dry Maize,Mixed-Traditional,-,-,Kiria-ini Market,100.00/Kg,100.00/Kg,900.00,Muranga,2024-08-07
+Dry Maize,White Maize,-,-,Mulot,33.33/Kg,42.50/Kg,15000.00,Bomet,2024-08-07
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-07
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-07
+Dry Maize,Mixed-Traditional,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-07
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,-,50.00/Kg,,Muranga,2024-08-07
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-07
+Dry Maize,White Maize,-,-,Bondo,36.11/Kg,50.00/Kg,28000.00,Siaya,2024-08-06
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,27000.00,Meru,2024-08-06
+Dry Maize,White Maize,-,-,Ahero,40.00/Kg,50.00/Kg,12000.00,Kisumu,2024-08-06
+Dry Maize,White Maize,-,-,Kabiyet Market,40.00/Kg,50.00/Kg,1520.00,Nandi,2024-08-06
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,8820.00,Makueni,2024-08-06
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,55.00/Kg,4500.00,Kirinyaga,2024-08-06
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-08-06
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,990.00,Meru,2024-08-06
+Dry Maize,White Maize,-,-,Kapkwen,34.44/Kg,50.00/Kg,49500.00,Bomet,2024-08-06
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-06
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,9500.00,Kirinyaga,2024-08-06
+Dry Maize,White Maize,-,-,Kutus,30.00/Kg,35.00/Kg,0.00,Kirinyaga,2024-08-05
+Dry Maize,Mixed-Traditional,-,-,Kitale Municipality Market,70.00/Kg,80.00/Kg,2000.00,Trans-Nzoia,2024-08-05
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,41.53/Kg,14400.00,Siaya,2024-08-05
+Dry Maize,Mixed-Traditional,-,-,Aram,44.44/Kg,50.76/Kg,3600.00,Siaya,2024-08-05
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,,Vihiga,2024-08-05
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-05
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-08-05
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-05
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-08-05
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-05
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,3200.00,Uasin-Gishu,2024-08-05
+Dry Maize,Yellow Maize,-,-,Kibuye,-,100.00/Kg,,Kisumu,2024-08-04
+Dry Maize,White Maize,-,-,Kibuye,-,45.00/Kg,,Kisumu,2024-08-04
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,7500.00,Migori,2024-08-04
+Dry Maize,White Maize,-,-,Mghange,-,45.00/Kg,2000.00,Taita-Taveta,2024-08-04
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-04
+Dry Maize,White Maize,-,-,Kibiok,40.00/Kg,50.00/Kg,9000.00,Nandi,2024-08-04
+Dry Maize,Mixed-Traditional,-,-,Mwatate,33.33/Kg,35.00/Kg,,Taita-Taveta,2024-08-04
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1500.00,Nakuru,2024-08-03
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-03
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,3000.00,Vihiga,2024-08-02
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,3000.00,Uasin-Gishu,2024-08-02
+Dry Maize,White Maize,-,-,Mumias,34.44/Kg,35.00/Kg,6400.00,Kakamega,2024-08-02
+Dry Maize,White Maize,-,-,Sibanga,37.78/Kg,50.00/Kg,1350.00,Trans-Nzoia,2024-08-02
+Dry Maize,White Maize,-,-,Kisasi,30.00/Kg,35.00/Kg,,Kitui,2024-08-02
+Dry Maize,White Maize,-,-,Serem - Vihiga,31.11/Kg,34.78/Kg,7000.00,Vihiga,2024-08-02
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-02
+Dry Maize,White Maize,-,-,Chuka,33.33/Kg,50.00/Kg,900.00,Tharaka-Nithi,2024-08-02
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-08-02
+Dry Maize,White Maize,-,-,Gikomba,-,60.00/Kg,,Nairobi,2024-08-02
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-02
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,8200.00,Kirinyaga,2024-08-02
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8000.00,Kirinyaga,2024-08-02
+Dry Maize,White Maize,-,-,Kipkaren,40.00/Kg,55.00/Kg,1000.00,Kakamega,2024-08-01
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,55.00/Kg,4500.00,Kirinyaga,2024-08-01
+Dry Maize,White Maize,-,-,Kitale Municipality Market,35.00/Kg,40.00/Kg,3000.00,Trans-Nzoia,2024-08-01
+Dry Maize,White Maize,-,-,Nyamakima,44.44/Kg,70.00/Kg,,Nairobi,2024-08-01
+Dry Maize,White Maize,-,-,Mogogosiek Market,40.00/Kg,48.00/Kg,90.00,Bomet,2024-08-01
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-08-01
+Dry Maize,Mixed-Traditional,-,-,Kimilili town,40.00/Kg,50.00/Kg,10000.00,Bungoma,2024-08-01
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-08-01
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,2000.00,Uasin-Gishu,2024-08-01
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,32.22/Kg,40.00/Kg,8200.00,Kirinyaga,2024-08-01
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1400.00,Nakuru,2024-07-31
+Dry Maize,White Maize,-,-,Kakamega Town,33.33/Kg,45.00/Kg,30000.00,Kakamega,2024-07-31
+Dry Maize,White Maize,-,-,Serem - Vihiga,31.11/Kg,34.78/Kg,9000.00,Vihiga,2024-07-31
+Dry Maize,Yellow Maize,-,-,Miruka,42.50/Kg,45.00/Kg,1800.00,Nyamira,2024-07-31
+Dry Maize,White Maize,-,-,Miruka,31.11/Kg,40.00/Kg,45000.00,Nyamira,2024-07-31
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-31
+Dry Maize,White Maize,-,-,Gikomba,-,60.00/Kg,,Nairobi,2024-07-31
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-07-31
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-07-31
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,50.00/Kg,2000.00,Uasin-Gishu,2024-07-31
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,40.00/Kg,50.00/Kg,,Muranga,2024-07-31
+Dry Maize,White Maize,-,-,Kawangware,-,50.00/Kg,,Nairobi,2024-07-31
+Dry Maize,White Maize,-,-,Kamukuywa,37.78/Kg,45.00/Kg,5000.00,Bungoma,2024-07-31
+Dry Maize,White Maize,-,-,Kamukuywa,31.11/Kg,40.00/Kg,9000.00,Bungoma,2024-07-31
+Dry Maize,White Maize,-,-,Kabiyet Market,40.00/Kg,50.00/Kg,650.00,Nandi,2024-07-30
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,60.00/Kg,4500.00,Kirinyaga,2024-07-30
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,19800.00,Meru,2024-07-30
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,45000.00,Migori,2024-07-30
+Dry Maize,Mixed-Traditional,-,-,Kisasi,32.00/Kg,35.00/Kg,,Kitui,2024-07-30
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,810.00,Meru,2024-07-30
+Dry Maize,White Maize,-,-,Kapkwen,34.44/Kg,50.00/Kg,2700.00,Bomet,2024-07-30
+Dry Maize,White Maize,-,-,Kangemi Market,36.67/Kg,45.00/Kg,,Nairobi,2024-07-30
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-30
+Dry Maize,White Maize,-,-,Gikomba,-,60.00/Kg,,Nairobi,2024-07-30
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-07-30
+Dry Maize,White Maize,-,-,Kapsabet Market,60.00/Kg,66.00/Kg,8000.00,Nandi,2024-07-30
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8200.00,Kirinyaga,2024-07-30
+Dry Maize,White Maize,-,-,Wundanyi,-,40.00/Kg,9000.00,Taita-Taveta,2024-07-30
+Dry Maize,Mixed-Traditional,-,-,Bondeni,32.50/Kg,37.50/Kg,500.00,Trans-Nzoia,2024-07-30
+Dry Maize,White Maize,-,-,Kawangware,-,45.00/Kg,,Nairobi,2024-07-30
+Dry Maize,White Maize,-,-,Rongo,31.11/Kg,31.60/Kg,4500.00,Migori,2024-07-29
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,2450.00,Vihiga,2024-07-29
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,6300.00,Uasin-Gishu,2024-07-29
+Dry Maize,Mixed-Traditional,-,-,Aram,44.44/Kg,50.76/Kg,3600.00,Siaya,2024-07-29
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,13500.00,Siaya,2024-07-29
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-29
+Dry Maize,White Maize,-,-,Gikomba,-,60.00/Kg,,Nairobi,2024-07-29
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-07-29
+Dry Maize,White Maize,-,-,Kawangware,-,45.00/Kg,,Nairobi,2024-07-29
+Dry Maize,Yellow Maize,-,-,Kibuye,-,90.00/Kg,,Kisumu,2024-07-29
+Dry Maize,White Maize,-,-,Kibuye,37.78/Kg,40.00/Kg,,Kisumu,2024-07-29
+Dry Maize,White Maize,-,-,Kibiok,40.00/Kg,50.00/Kg,6000.00,Nandi,2024-07-28
+Dry Maize,White Maize,-,-,Isebania Market,-,24.00/Kg,6500.00,Migori,2024-07-28
+Dry Maize,White Maize,-,-,Mumias,35.56/Kg,35.00/Kg,5850.00,Kakamega,2024-07-28
+Dry Maize,White Maize,-,-,Mghange,35.00/Kg,45.00/Kg,1500.00,Taita-Taveta,2024-07-28
+Dry Maize,White Maize,-,-,Muhoroni,50.00/Kg,60.00/Kg,5000.00,Kisumu,2024-07-28
+Dry Maize,White Maize,-,-,Mulot,35.56/Kg,50.00/Kg,12000.00,Bomet,2024-07-27
+Dry Maize,White Maize,-,-,Marindi,26.67/Kg,31.11/Kg,5400.00,Migori,2024-07-27
+Dry Maize,Mixed-Traditional,-,-,Sabatia,31.11/Kg,31.25/Kg,18000.00,Kakamega,2024-07-27
+Dry Maize,Mixed-Traditional,-,-,Mwatate,30.00/Kg,35.00/Kg,,Taita-Taveta,2024-07-27
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-27
+Dry Maize,White Maize,-,-,Gikomba,-,120.00/Kg,,Nairobi,2024-07-27
+Dry Maize,White Maize,-,-,Akala,50.00/Kg,60.00/Kg,14000.00,Siaya,2024-07-27
+Dry Maize,White Maize,-,-,Mukuyu Market,32.22/Kg,35.56/Kg,,Muranga,2024-07-27
+Dry Maize,White Maize,-,-,Mukuyu Market,32.22/Kg,35.56/Kg,,Muranga,2024-07-27
+Dry Maize,White Maize,-,-,Kawangware,-,45.00/Kg,,Nairobi,2024-07-27
+Dry Maize,White Maize,-,-,Serem - Vihiga,31.11/Kg,80.00/Kg,7000.00,Vihiga,2024-07-27
+Dry Maize,White Maize,-,-,Rongo,31.11/Kg,31.60/Kg,2700.00,Migori,2024-07-26
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,2400.00,Nakuru,2024-07-26
+Dry Maize,White Maize,-,-,Bungoma town,40.00/Kg,50.00/Kg,8000.00,Bungoma,2024-07-26
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,3200.00,Vihiga,2024-07-26
+Dry Maize,White Maize,-,-,Kerugoya,35.00/Kg,60.00/Kg,4500.00,Kirinyaga,2024-07-26
+Dry Maize,White Maize,-,-,Ndanai,34.44/Kg,38.00/Kg,9000.00,Bomet,2024-07-26
+Dry Maize,White Maize,-,-,Sibanga,33.33/Kg,45.00/Kg,6300.00,Trans-Nzoia,2024-07-26
+Dry Maize,Yellow Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,7500.00,Kirinyaga,2024-07-26
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,19800.00,Meru,2024-07-26
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-26
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-07-26
+Dry Maize,White Maize,-,-,Gikomba,-,60.00/Kg,,Nairobi,2024-07-26
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,8000.00,Kirinyaga,2024-07-26
+Dry Maize,White Maize,-,-,Kawangware,35.56/Kg,-,,Nairobi,2024-07-26
+Dry Maize,White Maize,-,-,Bondo,35.56/Kg,50.00/Kg,28000.00,Siaya,2024-07-26
+Dry Maize,White Maize,-,-,Mogogosiek Market,33.89/Kg,55.00/Kg,15000.00,Bomet,2024-07-25
+Dry Maize,Mixed-Traditional,-,-,Kipkaren,40.00/Kg,55.00/Kg,5000.00,Kakamega,2024-07-25
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1800.00,Nakuru,2024-07-25
+Dry Maize,White Maize,-,-,Kitale Municipality Market,45.00/Kg,50.00/Kg,2000.00,Trans-Nzoia,2024-07-25
+Dry Maize,White Maize,-,-,Ahero,40.00/Kg,50.00/Kg,7000.00,Kisumu,2024-07-25
+Dry Maize,Yellow Maize,-,-,Gikomba,-,90.00/Kg,,Nairobi,2024-07-25
+Dry Maize,White Maize,-,-,Gikomba,-,60.00/Kg,,Nairobi,2024-07-25
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-07-25
+Dry Maize,White Maize,-,-,Kawangware,35.56/Kg,-,,Nairobi,2024-07-25
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-07-25
+Dry Maize,White Maize,-,-,Kimilili town,80.00/Kg,100.00/Kg,15000.00,Bungoma,2024-07-25
+Dry Maize,Mixed-Traditional,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,5200.00,Kirinyaga,2024-07-24
+Dry Maize,White Maize,-,-,Kakamega Town,33.33/Kg,45.00/Kg,30000.00,Kakamega,2024-07-24
+Dry Maize,White Maize,-,-,Serem - Nandi,33.33/Kg,37.50/Kg,11000.00,Nandi,2024-07-24
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,31.60/Kg,4500.00,Migori,2024-07-24
+Dry Maize,White Maize,-,-,Akala,50.00/Kg,60.00/Kg,5000.00,Siaya,2024-07-24
+Dry Maize,Mixed-Traditional,-,-,Kabiyet Market,35.00/Kg,47.50/Kg,5000.00,Nandi,2024-07-24
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1700.00,Meru,2024-07-24
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-24
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-07-24
+Dry Maize,White Maize,-,-,Kawangware,35.56/Kg,-,,Nairobi,2024-07-24
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-07-24
+Dry Maize,Yellow Maize,-,-,Kangemi Market,53.33/Kg,-,,Nairobi,2024-07-24
+Dry Maize,White Maize,-,-,Kangemi Market,37.78/Kg,45.00/Kg,,Nairobi,2024-07-24
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1400.00,Nakuru,2024-07-24
+Dry Maize,Mixed-Traditional,-,-,Ugunja,24.49/Kg,40.00/Kg,,Siaya,2024-07-24
+Dry Maize,White Maize,-,-,Ugunja,31.11/Kg,45.00/Kg,,Siaya,2024-07-24
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,35000.00,Migori,2024-07-24
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-07-23
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,3400.00,Vihiga,2024-07-23
+Dry Maize,White Maize,-,-,Kapkwen,35.56/Kg,44.00/Kg,36000.00,Bomet,2024-07-23
+Dry Maize,White Maize,-,-,Bondo,35.00/Kg,50.00/Kg,21000.00,Siaya,2024-07-23
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,630.00,Meru,2024-07-23
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-07-23
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-07-23
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-07-23
+Dry Maize,Yellow Maize,-,-,Gikomba,-,90.00/Kg,,Nairobi,2024-07-23
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-07-23
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,2450.00,Nakuru,2024-07-22
+Dry Maize,White Maize,-,-,Kitale Municipality Market,45.00/Kg,50.00/Kg,2100.00,Trans-Nzoia,2024-07-22
+Dry Maize,White Maize,-,-,Kisasi,30.00/Kg,45.00/Kg,,Kitui,2024-07-22
+Dry Maize,White Maize,-,-,Chebunyo,35.56/Kg,50.00/Kg,14000.00,Bomet,2024-07-22
+Dry Maize,White Maize,-,-,Kibiok,40.00/Kg,50.00/Kg,7000.00,Nandi,2024-07-22
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,13500.00,Siaya,2024-07-22
+Dry Maize,Mixed-Traditional,-,-,Aram,44.44/Kg,55.58/Kg,5500.00,Siaya,2024-07-22
+Dry Maize,Yellow Maize,-,-,Eldoret Main,40.00/Kg,50.00/Kg,3500.00,Uasin-Gishu,2024-07-22
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-07-22
+Dry Maize,White Maize,-,-,Nyamakima,42.22/Kg,60.00/Kg,,Nairobi,2024-07-22
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-07-22
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-22
+Dry Maize,White Maize,-,-,Gikomba,-,60.00/Kg,,Nairobi,2024-07-22
+Dry Maize,White Maize,-,-,Kangemi Market,35.56/Kg,40.00/Kg,,Nairobi,2024-07-22
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,35000.00,Migori,2024-07-22
+Dry Maize,Yellow Maize,-,-,Kibuye,-,80.00/Kg,,Kisumu,2024-07-22
+Dry Maize,White Maize,-,-,Kibuye,40.00/Kg,45.00/Kg,21600.00,Kisumu,2024-07-22
+Dry Maize,Yellow Maize,-,-,Ikonge,-,60.00/Kg,270.00,Nyamira,2024-07-21
+Dry Maize,White Maize,-,-,Ikonge,38.89/Kg,52.00/Kg,8400.00,Nyamira,2024-07-21
+Dry Maize,Mixed-Traditional,-,-,Mabera,24.00/Kg,28.00/Kg,20000.00,Migori,2024-07-21
+Dry Maize,White Maize,-,-,Serem - Nandi,37.50/Kg,41.67/Kg,5000.00,Nandi,2024-07-21
+Dry Maize,White Maize,-,-,Akala,50.00/Kg,60.00/Kg,7000.00,Siaya,2024-07-20
+Dry Maize,White Maize,-,-,Kapsabet Market,33.00/Kg,100.00/Kg,7500.00,Nandi,2024-07-20
+Dry Maize,White Maize,-,-,Serem - Vihiga,33.33/Kg,39.13/Kg,8000.00,Vihiga,2024-07-20
+Dry Maize,White Maize,-,-,Rongo,27.65/Kg,31.60/Kg,4500.00,Migori,2024-07-19
+Dry Maize,White Maize,-,-,Ndanai,35.56/Kg,36.00/Kg,10800.00,Bomet,2024-07-19
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-07-19
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-07-19
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-19
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-07-19
+Dry Maize,White Maize,-,-,Nyamakima,42.22/Kg,60.00/Kg,,Nairobi,2024-07-19
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-07-19
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-19
+Dry Maize,White Maize,-,-,Eldoret Main,50.00/Kg,55.00/Kg,2500.00,Uasin-Gishu,2024-07-19
+Dry Maize,White Maize,-,-,Molo,-,27.78/Kg,2100.00,Nakuru,2024-07-18
+Dry Maize,Mixed-Traditional,-,-,Kabiyet Market,27.78/Kg,31.11/Kg,1000.00,Nandi,2024-07-18
+Dry Maize,White Maize,-,-,Tseikuru,38.89/Kg,45.00/Kg,15000.00,Kitui,2024-07-18
+Dry Maize,White Maize,-,-,Tseikuru,38.89/Kg,45.00/Kg,15000.00,Kitui,2024-07-18
+Dry Maize,White Maize,-,-,Tseikuru,38.89/Kg,45.00/Kg,15000.00,Kitui,2024-07-18
+Dry Maize,White Maize,-,-,Tseikuru,38.89/Kg,45.00/Kg,15000.00,Kitui,2024-07-18
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,9000.00,Siaya,2024-07-18
+Dry Maize,Mixed-Traditional,-,-,Aram,44.44/Kg,55.38/Kg,4500.00,Siaya,2024-07-18
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,3600.00,Vihiga,2024-07-18
+Dry Maize,Mixed-Traditional,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-07-18
+Dry Maize,Yellow Maize,-,-,Gikomba,-,90.00/Kg,,Nairobi,2024-07-18
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-07-18
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-18
+Dry Maize,White Maize,-,-,Kimilili town,40.00/Kg,50.00/Kg,20000.00,Bungoma,2024-07-18
+Dry Maize,Mixed-Traditional,-,-,Mwatate,30.00/Kg,35.00/Kg,,Taita-Taveta,2024-07-18
+Dry Maize,Mixed-Traditional,-,-,Kitale Municipality Market,45.00/Kg,50.00/Kg,2000.00,Trans-Nzoia,2024-07-17
+Dry Maize,White Maize,-,-,Serem - Vihiga,33.33/Kg,39.13/Kg,10000.00,Vihiga,2024-07-17
+Dry Maize,White Maize,-,-,Kakamega Town,0.10/Kg,50.00/Kg,,Kakamega,2024-07-17
+Dry Maize,White Maize,-,-,Mulot,34.44/Kg,50.00/Kg,12000.00,Bomet,2024-07-17
+Dry Maize,White Maize,-,-,Miruka,31.11/Kg,42.50/Kg,54000.00,Nyamira,2024-07-17
+Dry Maize,Yellow Maize,-,-,Miruka,40.00/Kg,45.00/Kg,3600.00,Nyamira,2024-07-17
+Dry Maize,White Maize,-,-,Serem - Nandi,33.33/Kg,37.50/Kg,11000.00,Nandi,2024-07-17
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-07-17
+Dry Maize,White Maize,-,-,Chepterit Market - Nandi,40.00/Kg,50.00/Kg,6500.00,Nandi,2024-07-17
+Dry Maize,White Maize,-,-,Nyamakima,42.22/Kg,60.00/Kg,,Nairobi,2024-07-17
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,40.00/Kg,50.00/Kg,,Muranga,2024-07-17
+Dry Maize,Yellow Maize,-,-,Gikomba,-,90.00/Kg,,Nairobi,2024-07-17
+Dry Maize,White Maize,-,-,Gikomba,-,55.00/Kg,,Nairobi,2024-07-17
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-07-17
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1400.00,Nakuru,2024-07-17
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,7000.00,Siaya,2024-07-17
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-17
+Dry Maize,White Maize,-,-,Kangemi Market,36.67/Kg,42.00/Kg,,Nairobi,2024-07-17
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,7800.00,Kirinyaga,2024-07-17
+Dry Maize,White Maize,-,-,Kamukuywa,35.56/Kg,42.50/Kg,6000.00,Bungoma,2024-07-17
+Dry Maize,White Maize,-,-,Kamukuywa,28.89/Kg,35.00/Kg,4000.00,Bungoma,2024-07-17
+Dry Maize,Mixed-Traditional,-,-,Ugunja,31.11/Kg,40.00/Kg,,Siaya,2024-07-17
+Dry Maize,White Maize,-,-,Ugunja,35.56/Kg,45.00/Kg,9000.00,Siaya,2024-07-17
+Dry Maize,Mixed-Traditional,-,-,Bondeni,37.50/Kg,45.00/Kg,500.00,Trans-Nzoia,2024-07-16
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-07-16
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,21600.00,Meru,2024-07-16
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,3500.00,Vihiga,2024-07-16
+Dry Maize,White Maize,-,-,Kapsabet Market,38.89/Kg,40.00/Kg,7500.00,Nandi,2024-07-16
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,4500.00,Kirinyaga,2024-07-16
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,810.00,Meru,2024-07-16
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,9000.00,Makueni,2024-07-16
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1400.00,Nakuru,2024-07-16
+Dry Maize,White Maize,-,-,Gikomba,42.22/Kg,110.00/Kg,,Nairobi,2024-07-16
+Dry Maize,White Maize,-,-,Bondo,37.78/Kg,50.00/Kg,7000.00,Siaya,2024-07-16
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-07-16
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-16
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,30.00/Kg,35.00/Kg,9000.00,Kitui,2024-07-16
+Dry Maize,White Maize,-,-,Chebunyo,35.56/Kg,55.00/Kg,21000.00,Bomet,2024-07-15
+Dry Maize,White Maize,-,-,Aram,36.67/Kg,46.15/Kg,18000.00,Siaya,2024-07-15
+Dry Maize,Mixed-Traditional,-,-,Aram,46.32/Kg,55.58/Kg,3600.00,Siaya,2024-07-15
+Dry Maize,White Maize,-,-,Molo,-,27.78/Kg,1500.00,Nakuru,2024-07-15
+Dry Maize,White Maize,-,-,Kitale Municipality Market,45.00/Kg,50.00/Kg,1800.00,Trans-Nzoia,2024-07-15
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-07-15
+Dry Maize,Yellow Maize,-,-,Gikomba,61.11/Kg,90.00/Kg,,Nairobi,2024-07-15
+Dry Maize,White Maize,-,-,Gikomba,42.22/Kg,55.00/Kg,,Nairobi,2024-07-15
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,2700.00,Kirinyaga,2024-07-15
+Dry Maize,White Maize,-,-,Kagio,50.00/Kg,65.00/Kg,,Kirinyaga,2024-07-15
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-15
+Dry Maize,White Maize,-,-,Kangemi Market,36.67/Kg,42.00/Kg,,Nairobi,2024-07-15
+Dry Maize,Yellow Maize,-,-,Ikonge,-,72.00/Kg,630.00,Nyamira,2024-07-14
+Dry Maize,White Maize,-,-,Ikonge,38.89/Kg,52.00/Kg,12600.00,Nyamira,2024-07-14
+Dry Maize,White Maize,-,-,Isebania Market,-,375.00/Kg,7500.00,Migori,2024-07-14
+Dry Maize,White Maize,-,-,Kibiok,40.00/Kg,50.00/Kg,15000.00,Nandi,2024-07-14
+Dry Maize,Yellow Maize,-,-,Kibuye,-,85.00/Kg,,Kisumu,2024-07-13
+Dry Maize,White Maize,-,-,Kibuye,44.44/Kg,50.00/Kg,21600.00,Kisumu,2024-07-13
+Dry Maize,White Maize,-,-,Kapsabet Market,35.56/Kg,40.00/Kg,10000.00,Nandi,2024-07-13
+Dry Maize,Mixed-Traditional,-,-,Mwatate,32.22/Kg,35.00/Kg,,Taita-Taveta,2024-07-13
+Dry Maize,White Maize,-,-,Marindi,31.11/Kg,35.56/Kg,4500.00,Migori,2024-07-13
+Dry Maize,White Maize,-,-,Ngurubani Market,32.78/Kg,40.00/Kg,6800.00,Kirinyaga,2024-07-12
+Dry Maize,White Maize,-,-,Ndanai,34.44/Kg,36.00/Kg,21000.00,Bomet,2024-07-12
+Dry Maize,Mixed-Traditional,-,-,Kabiyet Market,27.78/Kg,31.11/Kg,2.00,Nandi,2024-07-12
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-07-12
+Dry Maize,White Maize,-,-,Nyamakima,40.00/Kg,70.00/Kg,,Nairobi,2024-07-12
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-12
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,5600.00,Kirinyaga,2024-07-12
+Dry Maize,Mixed-Traditional,-,-,Mabera,22.00/Kg,26.00/Kg,60000.00,Migori,2024-07-12
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,27.00/Kg,35.00/Kg,260000.00,Kitui,2024-07-12
+Dry Maize,White Maize,-,-,Mogogosiek Market,35.56/Kg,55.00/Kg,13000.00,Bomet,2024-07-11
+Dry Maize,Yellow Maize,-,-,Gikomba,-,100.00/Kg,,Nairobi,2024-07-11
+Dry Maize,White Maize,-,-,Gikomba,43.00/Kg,55.00/Kg,,Nairobi,2024-07-11
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,27000.00,Meru,2024-07-11
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,27000.00,Meru,2024-07-11
+Dry Maize,White Maize,-,-,Kutus,30.00/Kg,35.00/Kg,2700.00,Kirinyaga,2024-07-11
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1800.00,Nakuru,2024-07-11
+Dry Maize,White Maize,-,-,Kimilili town,40.00/Kg,50.00/Kg,20000.00,Bungoma,2024-07-11
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,9000.00,Siaya,2024-07-11
+Dry Maize,White Maize,-,-,Marindi,-,33.33/Kg,4500.00,Migori,2024-07-11
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,35.55/Kg,4500.00,Migori,2024-07-10
+Dry Maize,White Maize,-,-,Bondo,44.44/Kg,60.00/Kg,27000.00,Siaya,2024-07-10
+Dry Maize,White Maize,-,-,Sibanga,42.50/Kg,45.00/Kg,1800.00,Trans-Nzoia,2024-07-10
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-07-10
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-07-10
+Dry Maize,White Maize,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-07-10
+Dry Maize,Yellow Maize,-,-,Gikomba,61.11/Kg,90.00/Kg,,Nairobi,2024-07-10
+Dry Maize,White Maize,-,-,Serem - Vihiga,33.33/Kg,36.96/Kg,9000.00,Vihiga,2024-07-10
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-07-10
+Dry Maize,White Maize,-,-,Mukuyu Market,33.33/Kg,35.56/Kg,,Muranga,2024-07-10
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,-,36.67/Kg,,Muranga,2024-07-10
+Dry Maize,White Maize,-,-,Mukuyu Market,31.11/Kg,45.56/Kg,,Muranga,2024-07-10
+Dry Maize,White Maize,-,-,Daraja Mbili,32.00/Kg,40.00/Kg,7600.00,Kisii,2024-07-10
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,35.55/Kg,4500.00,Migori,2024-07-10
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-07-10
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-07-10
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-07-09
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,2450.00,Vihiga,2024-07-09
+Dry Maize,White Maize,-,-,Ahero,40.00/Kg,50.00/Kg,7000.00,Kisumu,2024-07-09
+Dry Maize,Mixed-Traditional,-,-,Isebania Market,-,28.00/Kg,5000.00,Migori,2024-07-09
+Dry Maize,White Maize,-,-,Serem - Nandi,33.33/Kg,37.50/Kg,12000.00,Nandi,2024-07-09
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,10000.00,Makueni,2024-07-09
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,720.00,Meru,2024-07-09
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-09
+Dry Maize,White Maize,-,-,Kapsabet Market,42.22/Kg,40.00/Kg,10000.00,Nandi,2024-07-09
+Dry Maize,White Maize,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-07-09
+Dry Maize,Yellow Maize,-,-,Gikomba,61.11/Kg,90.00/Kg,,Nairobi,2024-07-09
+Dry Maize,White Maize,-,-,Gikomba,31.11/Kg,60.00/Kg,,Nairobi,2024-07-09
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-07-09
+Dry Maize,White Maize,-,-,Molo,-,2500.00/Kg,1080.00,Nakuru,2024-07-09
+Dry Maize,White Maize,-,-,Kangemi Market,36.67/Kg,42.00/Kg,,Nairobi,2024-07-09
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,50.00/Kg,2500.00,Uasin-Gishu,2024-07-09
+Dry Maize,White Maize,-,-,Chebunyo,34.44/Kg,45.00/Kg,21000.00,Bomet,2024-07-08
+Dry Maize,White Maize,-,-,Molo,-,27.78/Kg,10801.00,Nakuru,2024-07-08
+Dry Maize,White Maize,-,-,Kitale Municipality Market,70.00/Kg,80.00/Kg,3000.00,Trans-Nzoia,2024-07-08
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,5800.00,Kirinyaga,2024-07-08
+Dry Maize,White Maize,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-07-08
+Dry Maize,Mixed-Traditional,-,-,Kisasi,40.00/Kg,50.00/Kg,,Kitui,2024-07-08
+Dry Maize,White Maize,-,-,Kangemi Market,37.78/Kg,40.00/Kg,,Nairobi,2024-07-08
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-07-08
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-07-08
+Dry Maize,White Maize,-,-,Kutus,30.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-07-08
+Dry Maize,Mixed-Traditional,-,-,Isebania Market,-,50.00/Kg,3000.00,Migori,2024-07-08
+Dry Maize,Yellow Maize,-,-,Kibuye,-,90.00/Kg,,Kisumu,2024-07-07
+Dry Maize,White Maize,-,-,Kibuye,45.56/Kg,50.00/Kg,,Kisumu,2024-07-07
+Dry Maize,White Maize,-,-,Muhoroni,45.00/Kg,50.00/Kg,18000.00,Kisumu,2024-07-07
+Dry Maize,White Maize,-,-,Kibiok,45.00/Kg,50.00/Kg,10000.00,Nandi,2024-07-07
+Dry Maize,White Maize,-,-,Kamukuywa,35.56/Kg,42.50/Kg,15000.00,Bungoma,2024-07-07
+Dry Maize,White Maize,-,-,Marindi,-,33.33/Kg,2700.00,Migori,2024-07-06
+Dry Maize,White Maize,-,-,Kapsabet Market,38.89/Kg,40.00/Kg,10000.00,Nandi,2024-07-06
+Dry Maize,White Maize,-,-,Mukuyu Market,32.22/Kg,35.56/Kg,,Muranga,2024-07-06
+Dry Maize,White Maize,-,-,Molo,-,2500.00/Kg,1100.00,Nakuru,2024-07-05
+Dry Maize,White Maize,-,-,Kerugoya,40.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-07-05
+Dry Maize,White Maize,-,-,Bondo,38.89/Kg,50.00/Kg,14000.00,Siaya,2024-07-05
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,4500.00,Vihiga,2024-07-05
+Dry Maize,Mixed-Traditional,-,-,Chwele,37.78/Kg,36.00/Kg,13500.00,Bungoma,2024-07-05
+Dry Maize,White Maize,-,-,Ndanai,34.44/Kg,36.00/Kg,21600.00,Bomet,2024-07-05
+Dry Maize,White Maize,-,-,Kimumu - Bahati,40.00/Kg,50.00/Kg,7000.00,Uasin-Gishu,2024-07-05
+Dry Maize,White Maize,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-07-05
+Dry Maize,White Maize,-,-,Port Victoria,42.50/Kg,50.00/Kg,,Busia,2024-07-05
+Dry Maize,White Maize,-,-,Chepterit Market - Nandi,45.00/Kg,50.00/Kg,5300.00,Nandi,2024-07-05
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-05
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,6500.00,Kirinyaga,2024-07-05
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,4500.00,Kirinyaga,2024-07-05
+Dry Maize,White Maize,-,-,Kabati Kitui,30.00/Kg,35.00/Kg,109000.00,Kitui,2024-07-05
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,27000.00,Meru,2024-07-04
+Dry Maize,White Maize,-,-,Kitale Municipality Market,40.00/Kg,50.00/Kg,3000.00,Trans-Nzoia,2024-07-04
+Dry Maize,Mixed-Traditional,-,-,Mabera,-,24.00/Kg,10000.00,Migori,2024-07-04
+Dry Maize,White Maize,-,-,Kalundu,35.00/Kg,40.00/Kg,,Kitui,2024-07-04
+Dry Maize,Yellow Maize,-,-,Gikomba,61.11/Kg,90.00/Kg,,Nairobi,2024-07-04
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-07-04
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,35.55/Kg,4500.00,Migori,2024-07-03
+Dry Maize,White Maize,-,-,Serem - Vihiga,31.11/Kg,34.78/Kg,9000.00,Vihiga,2024-07-03
+Dry Maize,White Maize,-,-,Mwingi Town,41.11/Kg,50.00/Kg,400.00,Kitui,2024-07-03
+Dry Maize,Mixed-Traditional,-,-,Kabiyet Market,40.00/Kg,45.00/Kg,1000.00,Nandi,2024-07-03
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-07-03
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-07-03
+Dry Maize,Yellow Maize,-,-,Gikomba,61.11/Kg,90.00/Kg,,Nairobi,2024-07-03
+Dry Maize,White Maize,-,-,Gikomba,31.11/Kg,65.00/Kg,,Nairobi,2024-07-03
+Dry Maize,White Maize,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-07-03
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,5200.00,Kirinyaga,2024-07-03
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-07-03
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,9000.00,Migori,2024-07-03
+Dry Maize,Mixed-Traditional,-,-,Kapsabet Market,36.67/Kg,40.00/Kg,7500.00,Nandi,2024-07-02
+Dry Maize,White Maize,-,-,Marindi,-,33.33/Kg,3060.00,Migori,2024-07-02
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,6300.00,Makueni,2024-07-02
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,6500.00,Kirinyaga,2024-07-02
+Dry Maize,Mixed-Traditional,-,-,Bondeni,40.00/Kg,45.00/Kg,500.00,Trans-Nzoia,2024-07-02
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,540.00,Meru,2024-07-02
+Dry Maize,Mixed-Traditional,-,-,Ahero,40.00/Kg,50.00/Kg,5000.00,Kisumu,2024-07-02
+Dry Maize,Mixed-Traditional,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-07-02
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-07-02
+Dry Maize,White Maize,-,-,Kimumu - Bahati,42.22/Kg,50.00/Kg,8000.00,Uasin-Gishu,2024-07-02
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1100.00,Nakuru,2024-07-01
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,35.55/Kg,4500.00,Migori,2024-07-01
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-07-01
+Dry Maize,White Maize,-,-,Chebunyo,35.56/Kg,55.00/Kg,14000.00,Bomet,2024-07-01
+Dry Maize,Mixed-Traditional,-,-,Kitale Municipality Market,40.00/Kg,50.00/Kg,2000.00,Trans-Nzoia,2024-07-01
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-07-01
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-07-01
+Dry Maize,White Maize,-,-,Kalundu,36.67/Kg,40.00/Kg,,Kitui,2024-07-01
+Dry Maize,Yellow Maize,-,-,Gikomba,61.11/Kg,90.00/Kg,,Nairobi,2024-07-01
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-07-01
+Dry Maize,Mixed-Traditional,-,-,Soko Mjinga Wajir,-,100.00/Kg,,Wajir,2024-07-01
+Dry Maize,White Maize,-,-,Isebania Market,-,24.00/Kg,5000.00,Migori,2024-07-01
+Dry Maize,Yellow Maize,-,-,Kibuye,-,75.00/Kg,,Kisumu,2024-06-30
+Dry Maize,White Maize,-,-,Kibuye,45.56/Kg,50.00/Kg,,Kisumu,2024-06-30
+Dry Maize,White Maize,-,-,Kibiok,31.11/Kg,33.33/Kg,7000.00,Nandi,2024-06-30
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,3500.00,Siaya,2024-06-29
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1080.00,Nakuru,2024-06-29
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1400.00,Nakuru,2024-06-28
+Dry Maize,White Maize,-,-,Kangemi Market,37.78/Kg,-,,Nairobi,2024-06-28
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,7500.00,Kirinyaga,2024-06-28
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-28
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-28
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-28
+Dry Maize,Mixed-Traditional,-,-,Kabiyet Market,35.00/Kg,45.00/Kg,2500.00,Nandi,2024-06-28
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-06-28
+Dry Maize,Mixed-Traditional,-,-,Mabera,-,24.00/Kg,10000.00,Migori,2024-06-28
+Dry Maize,White Maize,-,-,Kerugoya,50.00/Kg,70.00/Kg,4500.00,Kirinyaga,2024-06-27
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,27000.00,Meru,2024-06-27
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,3600.00,Kirinyaga,2024-06-27
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-27
+Dry Maize,White Maize,-,-,Molo,-,2600.00/Kg,980.00,Nakuru,2024-06-27
+Dry Maize,White Maize,-,-,Isebania Market,-,26.00/Kg,5000.00,Migori,2024-06-27
+Dry Maize,White Maize,-,-,Isebania Market,-,24.00/Kg,3000.00,Migori,2024-06-27
+Dry Maize,White Maize,-,-,Kitale Municipality Market,40.00/Kg,50.00/Kg,2000.00,Trans-Nzoia,2024-06-26
+Dry Maize,White Maize,-,-,Akala,45.00/Kg,50.00/Kg,15000.00,Siaya,2024-06-26
+Dry Maize,White Maize,-,-,Serem - Vihiga,33.33/Kg,36.96/Kg,9000.00,Vihiga,2024-06-26
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-26
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-26
+Dry Maize,Mixed-Traditional,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-06-26
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-06-26
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,7500.00,Kirinyaga,2024-06-26
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1250.00,Nakuru,2024-06-26
+Dry Maize,White Maize,-,-,Kathonzweni,35.00/Kg,40.00/Kg,9000.00,Makueni,2024-06-25
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,2900.00,Vihiga,2024-06-25
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,810.00,Meru,2024-06-25
+Dry Maize,White Maize,-,-,Kapsabet Market,37.78/Kg,40.00/Kg,5000.00,Nandi,2024-06-25
+Dry Maize,White Maize,-,-,Kapkwen,35.56/Kg,60.00/Kg,27000.00,Bomet,2024-06-25
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-25
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-25
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-06-25
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1200.00,Nakuru,2024-06-25
+Dry Maize,Mixed-Traditional,-,-,Kitale Municipality Market,45.00/Kg,50.00/Kg,2000.00,Trans-Nzoia,2024-06-24
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,70.00/Kg,4800.00,Kirinyaga,2024-06-24
+Dry Maize,Mixed-Traditional,-,-,Mwangulu,45.00/Kg,50.00/Kg,2450.00,Kwale,2024-06-24
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,3600.00,Kirinyaga,2024-06-24
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-24
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-24
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-24
+Dry Maize,White Maize,-,-,Chebunyo,30.00/Kg,55.00/Kg,35000.00,Bomet,2024-06-24
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-24
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1300.00,Nakuru,2024-06-24
+Dry Maize,White Maize,-,-,Kamukuywa,35.56/Kg,42.50/Kg,12000.00,Bungoma,2024-06-24
+Dry Maize,Yellow Maize,-,-,Kibuye,-,85.00/Kg,,Kisumu,2024-06-24
+Dry Maize,White Maize,-,-,Kibuye,44.44/Kg,47.50/Kg,,Kisumu,2024-06-24
+Dry Maize,White Maize,-,-,Kibiok,45.00/Kg,50.00/Kg,5000.00,Nandi,2024-06-23
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,50000.00,Migori,2024-06-23
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,4500.00,Kirinyaga,2024-06-22
+Dry Maize,White Maize,-,-,Mukuyu Market,33.33/Kg,38.89/Kg,,Muranga,2024-06-22
+Dry Maize,White Maize,-,-,Akala,45.00/Kg,50.00/Kg,9000.00,Siaya,2024-06-22
+Dry Maize,White Maize,-,-,Serem - Vihiga,33.33/Kg,39.13/Kg,8000.00,Vihiga,2024-06-22
+Dry Maize,White Maize,-,-,Kapsabet Market,38.89/Kg,40.00/Kg,7500.00,Nandi,2024-06-22
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8200.00,Kirinyaga,2024-06-21
+Dry Maize,Mixed-Traditional,-,-,Rongo,31.11/Kg,35.55/Kg,4500.00,Migori,2024-06-21
+Dry Maize,White Maize,-,-,Cheptulu,-,50.00/Kg,4100.00,Vihiga,2024-06-21
+Dry Maize,White Maize,-,-,Ndanai,34.44/Kg,36.00/Kg,28800.00,Bomet,2024-06-21
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-06-21
+Dry Maize,White Maize,-,-,Eldoret Main,30.00/Kg,40.00/Kg,3500.00,Uasin-Gishu,2024-06-21
+Dry Maize,White Maize,-,-,Kisasi,35.00/Kg,40.00/Kg,,Kitui,2024-06-21
+Dry Maize,Mixed-Traditional,-,-,Chwele,37.78/Kg,40.00/Kg,18000.00,Bungoma,2024-06-21
+Dry Maize,White Maize,-,-,Sikhendu,32.00/Kg,36.00/Kg,900.00,Trans-Nzoia,2024-06-21
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-21
+Dry Maize,White Maize,-,-,Kimumu - Bahati,38.89/Kg,75.00/Kg,18000.00,Uasin-Gishu,2024-06-21
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-21
+Dry Maize,White Maize,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-06-21
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-21
+Dry Maize,White Maize,-,-,Kimumu - Bahati,45.00/Kg,50.00/Kg,12000.00,Uasin-Gishu,2024-06-20
+Dry Maize,White Maize,-,-,Kitale Municipality Market,45.00/Kg,50.00/Kg,2000.00,Trans-Nzoia,2024-06-20
+Dry Maize,White Maize,-,-,Kitale Municipality Market,45.00/Kg,50.00/Kg,2000.00,Trans-Nzoia,2024-06-20
+Dry Maize,White Maize,-,-,Kitale Municipality Market,45.00/Kg,50.00/Kg,2000.00,Trans-Nzoia,2024-06-20
+Dry Maize,Yellow Maize,-,-,Molo,-,28.89/Kg,1700.00,Nakuru,2024-06-20
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-20
+Dry Maize,White Maize,-,-,Kangemi Market,36.67/Kg,-,,Nairobi,2024-06-20
+Dry Maize,White Maize,-,-,Sibanga,31.11/Kg,42.50/Kg,3500.00,Trans-Nzoia,2024-06-20
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-20
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-20
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-20
+Dry Maize,White Maize,-,-,Akala,45.00/Kg,50.00/Kg,9000.00,Siaya,2024-06-20
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,9000.00,Kirinyaga,2024-06-20
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-06-19
+Dry Maize,White Maize,-,-,Mwingi Town,37.00/Kg,50.00/Kg,9000.00,Kitui,2024-06-19
+Dry Maize,White Maize,-,-,test market,30.00/Kg,30.00/Kg,18000.00,,2024-06-19
+Dry Maize,White Maize,-,-,test market,30.00/Kg,37.50/Kg,9000.00,,2024-06-19
+Dry Maize,Mixed-Traditional,-,-,test market,30.00/Kg,30.00/Kg,18000.00,,2024-06-19
+Dry Maize,White Maize,-,-,test market,30.00/Kg,30.00/Kg,1800.00,,2024-06-19
+Dry Maize,Mixed-Traditional,-,-,test market,30.00/Kg,1.50/Kg,1800.00,,2024-06-19
+Dry Maize,White Maize,-,-,test market,30.00/Kg,30.00/Kg,18000.00,,2024-06-19
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-19
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-19
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-19
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1100.00,Nakuru,2024-06-19
+Dry Maize,White Maize,-,-,Mulot,35.56/Kg,50.00/Kg,5000.00,Bomet,2024-06-19
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-06-19
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-19
+Dry Maize,Mixed-Traditional,-,-,Bondeni,35.00/Kg,45.00/Kg,500.00,Trans-Nzoia,2024-06-18
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1700.00,Nakuru,2024-06-18
+Dry Maize,Mixed-Traditional,-,-,Cheptulu,-,50.00/Kg,3400.00,Vihiga,2024-06-18
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,630.00,Meru,2024-06-18
+Dry Maize,White Maize,-,-,Kangemi Market,31.11/Kg,-,,Nairobi,2024-06-18
+Dry Maize,White Maize,-,-,Kapsabet Market,37.78/Kg,40.00/Kg,7500.00,Nandi,2024-06-18
+Dry Maize,White Maize,-,-,Kabiyet Market,54.00/Kg,58.00/Kg,1000.00,Nandi,2024-06-18
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-18
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-18
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-18
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,7500.00,Kirinyaga,2024-06-18
+Dry Maize,White Maize,-,-,Kabati Kitui,35.00/Kg,40.00/Kg,15300.00,Kitui,2024-06-18
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,65000.00,Migori,2024-06-18
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,0.00,Kirinyaga,2024-06-17
+Dry Maize,White Maize,-,-,Kimumu - Bahati,50.00/Kg,60.00/Kg,5000.00,Uasin-Gishu,2024-06-17
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-17
+Dry Maize,Yellow Maize,-,-,Kibuye,-,100.00/Kg,,Kisumu,2024-06-17
+Dry Maize,White Maize,-,-,Kibuye,44.44/Kg,55.00/Kg,,Kisumu,2024-06-17
+Dry Maize,White Maize,-,-,Katito,38.89/Kg,50.00/Kg,6500.00,Kisumu,2024-06-16
+Dry Maize,White Maize,-,-,Isebania Market,-,28.00/Kg,65000.00,Migori,2024-06-16
+Dry Maize,White Maize,-,-,Mabera,24.00/Kg,32.00/Kg,6500.00,Migori,2024-06-16
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,35.55/Kg,4500.00,Migori,2024-06-16
+Dry Maize,White Maize,-,-,Kibiok,45.00/Kg,50.00/Kg,9000.00,Nandi,2024-06-16
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,10000.00,Siaya,2024-06-16
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1200.00,Nakuru,2024-06-15
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-06-15
+Dry Maize,White Maize,-,-,Kapsabet Market,35.56/Kg,40.00/Kg,3000.00,Nandi,2024-06-15
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,8000.00,Kirinyaga,2024-06-15
+Dry Maize,White Maize,-,-,Mukuyu Market,33.33/Kg,38.89/Kg,,Muranga,2024-06-15
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-15
+Dry Maize,White Maize,-,-,Ndanai,35.56/Kg,40.00/Kg,21600.00,Bomet,2024-06-14
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,3500.00,Vihiga,2024-06-14
+Dry Maize,White Maize,-,-,Kimumu - Bahati,44.44/Kg,60.00/Kg,12000.00,Uasin-Gishu,2024-06-14
+Dry Maize,White Maize,-,-,Kisasi,35.00/Kg,45.00/Kg,,Kitui,2024-06-14
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1200.00,Nakuru,2024-06-14
+Dry Maize,White Maize,-,-,Sikhendu,36.00/Kg,40.00/Kg,360.00,Trans-Nzoia,2024-06-14
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-14
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-14
+Dry Maize,White Maize,-,-,Kasikeu,35.00/Kg,40.00/Kg,,Makueni,2024-06-14
+Dry Maize,Mixed-Traditional,-,-,Mogogosiek Market,35.56/Kg,60.00/Kg,9000.00,Bomet,2024-06-14
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1400.00,Nakuru,2024-06-13
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,68.00/Kg,,Nairobi,2024-06-13
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,900.00,Kirinyaga,2024-06-13
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-13
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-13
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-13
+Dry Maize,White Maize,-,-,Kimumu - Bahati,50.00/Kg,55.00/Kg,12000.00,Uasin-Gishu,2024-06-13
+Dry Maize,White Maize,-,-,Akala,45.00/Kg,50.00/Kg,10000.00,Siaya,2024-06-13
+Dry Maize,White Maize,-,-,Serem - Nandi,37.50/Kg,41.67/Kg,2000.00,Nandi,2024-06-13
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,6500.00,Kirinyaga,2024-06-13
+Dry Maize,Yellow Maize,-,-,Kibuye,-,100.00/Kg,,Kisumu,2024-06-12
+Dry Maize,White Maize,-,-,Kibuye,44.44/Kg,55.00/Kg,,Kisumu,2024-06-12
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1500.00,Nakuru,2024-06-12
+Dry Maize,White Maize,-,-,Mulot,35.56/Kg,50.00/Kg,10000.00,Bomet,2024-06-12
+Dry Maize,White Maize,-,-,Chepterit Market - Nandi,45.00/Kg,50.00/Kg,18300.00,Nandi,2024-06-12
+Dry Maize,White Maize,-,-,Mwingi Town,40.00/Kg,45.00/Kg,3600.00,Kitui,2024-06-12
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,33.33/Kg,35.56/Kg,,Muranga,2024-06-12
+Dry Maize,White Maize,-,-,Nairobi Wakulima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-12
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-12
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-12
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1600.00,Meru,2024-06-12
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-12
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,45.00/Kg,5000.00,Uasin-Gishu,2024-06-12
+Dry Maize,White Maize,-,-,Kerugoya,40.00/Kg,65.00/Kg,5000.00,Kirinyaga,2024-06-11
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,27000.00,Meru,2024-06-11
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,3000.00,Uasin-Gishu,2024-06-11
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,3500.00,Vihiga,2024-06-11
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1700.00,Nakuru,2024-06-11
+Dry Maize,White Maize,-,-,Isebania Market,-,30.00/Kg,65000.00,Migori,2024-06-11
+Dry Maize,White Maize,-,-,Kapsabet Market,38.89/Kg,40.00/Kg,10000.00,Nandi,2024-06-11
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,810.00,Meru,2024-06-11
+Dry Maize,White Maize,-,-,Nyamakima,70.00/Kg,90.00/Kg,,Nairobi,2024-06-11
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-11
+Dry Maize,White Maize,-,-,Kapkwen,35.56/Kg,55.00/Kg,27000.00,Bomet,2024-06-11
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-11
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-11
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,5000.00,Kirinyaga,2024-06-11
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,30.00/Kg,40.00/Kg,3600.00,Kitui,2024-06-11
+Dry Maize,White Maize,-,-,Kitale Municipality Market,80.00/Kg,100.00/Kg,2000.00,Trans-Nzoia,2024-06-10
+Dry Maize,Mixed-Traditional,-,-,Kimumu - Bahati,38.89/Kg,50.00/Kg,5000.00,Uasin-Gishu,2024-06-10
+Dry Maize,White Maize,-,-,Kisasi,35.00/Kg,45.00/Kg,,Kitui,2024-06-10
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,1500.00,Uasin-Gishu,2024-06-10
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-10
+Dry Maize,White Maize,-,-,Nyamakima,39.00/Kg,70.00/Kg,,Nairobi,2024-06-10
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-10
+Dry Maize,White Maize,-,-,Mabera,60.00/Kg,80.00/Kg,6000.00,Migori,2024-06-10
+Dry Maize,White Maize,-,-,Kibiok,45.00/Kg,55.00/Kg,6500.00,Nandi,2024-06-09
+Dry Maize,Yellow Maize,-,-,Kibuye,-,100.00/Kg,,Kisumu,2024-06-09
+Dry Maize,White Maize,-,-,Kibuye,44.44/Kg,50.00/Kg,,Kisumu,2024-06-09
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-09
+Dry Maize,White Maize,-,-,Akala,40.00/Kg,50.00/Kg,14000.00,Siaya,2024-06-08
+Dry Maize,White Maize,-,-,Mukuyu Market,33.33/Kg,38.89/Kg,,Muranga,2024-06-08
+Dry Maize,White Maize,-,-,Kapsabet Market,37.78/Kg,40.00/Kg,10000.00,Nandi,2024-06-08
+Dry Maize,White Maize,-,-,Kimumu - Bahati,38.89/Kg,50.00/Kg,12000.00,Uasin-Gishu,2024-06-08
+Dry Maize,White Maize,-,-,Mulot,41.11/Kg,50.00/Kg,120000.00,Bomet,2024-06-08
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1700.00,Nakuru,2024-06-08
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-08
+Dry Maize,White Maize,-,-,Kimumu - Bahati,50.00/Kg,60.00/Kg,7000.00,Uasin-Gishu,2024-06-07
+Dry Maize,Mixed-Traditional,-,-,Ndanai,35.56/Kg,40.00/Kg,,Bomet,2024-06-07
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,35.55/Kg,4500.00,Migori,2024-06-07
+Dry Maize,White Maize,-,-,Sibanga,33.33/Kg,45.00/Kg,4500.00,Trans-Nzoia,2024-06-07
+Dry Maize,White Maize,-,-,Sikhendu,32.00/Kg,36.00/Kg,360.00,Trans-Nzoia,2024-06-07
+Dry Maize,White Maize,-,-,Isebania Market,-,23.00/Kg,65000.00,Migori,2024-06-07
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-07
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-07
+Dry Maize,White Maize,-,-,Nyamakima,39.00/Kg,70.00/Kg,,Nairobi,2024-06-07
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-06-07
+Dry Maize,Mixed-Traditional,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-06-07
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,4500.00,Kirinyaga,2024-06-07
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-07
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,6500.00,Kirinyaga,2024-06-07
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,30.00/Kg,30.00/Kg,9000.00,Kitui,2024-06-07
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,2100.00,Nakuru,2024-06-06
+Dry Maize,Yellow Maize,-,-,Gikomba,60.00/Kg,90.00/Kg,,Nairobi,2024-06-06
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-06-06
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-06
+Dry Maize,White Maize,-,-,Kimilili town,45.00/Kg,50.00/Kg,10000.00,Bungoma,2024-06-06
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-06
+Dry Maize,Mixed-Traditional,-,-,Mabera,26.00/Kg,32.00/Kg,5000.00,Migori,2024-06-06
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,6300.00,Uasin-Gishu,2024-06-06
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,9000.00,Kirinyaga,2024-06-06
+Dry Maize,Mixed-Traditional,-,-,Mwatate,30.00/Kg,35.00/Kg,,Taita-Taveta,2024-06-06
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,35.55/Kg,4500.00,Migori,2024-06-05
+Dry Maize,Mixed-Traditional,-,-,Akala,45.00/Kg,50.00/Kg,14000.00,Siaya,2024-06-05
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1200.00,Nakuru,2024-06-05
+Dry Maize,White Maize,-,-,Chepterit Market - Nandi,47.50/Kg,55.00/Kg,1800.00,Nandi,2024-06-05
+Dry Maize,White Maize,-,-,Nyamakima,39.00/Kg,70.00/Kg,,Nairobi,2024-06-05
+Dry Maize,Yellow Maize,-,-,Gikomba,68.89/Kg,100.00/Kg,,Nairobi,2024-06-05
+Dry Maize,White Maize,-,-,Gikomba,31.11/Kg,65.00/Kg,,Nairobi,2024-06-05
+Dry Maize,White Maize,-,-,Kimumu - Bahati,50.00/Kg,60.00/Kg,3000.00,Uasin-Gishu,2024-06-05
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-05
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1800.00,Meru,2024-06-05
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,8500.00,Kirinyaga,2024-06-05
+Dry Maize,White Maize,-,-,Isebania Market,-,32.00/Kg,70000.00,Migori,2024-06-05
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,65.00/Kg,4500.00,Kirinyaga,2024-06-04
+Dry Maize,White Maize,-,-,Kapsabet Market,38.89/Kg,40.00/Kg,10000.00,Nandi,2024-06-04
+Dry Maize,Yellow Maize,-,-,Gikomba,68.89/Kg,83.33/Kg,,Nairobi,2024-06-04
+Dry Maize,White Maize,-,-,Gikomba,31.11/Kg,54.17/Kg,,Nairobi,2024-06-04
+Dry Maize,White Maize,-,-,Gikomba,31.11/Kg,54.17/Kg,,Nairobi,2024-06-04
+Dry Maize,White Maize,-,-,Molo,-,2600.00/Kg,2400.00,Nakuru,2024-06-04
+Dry Maize,Mixed-Traditional,-,-,Bondeni,37.50/Kg,45.00/Kg,500.00,Trans-Nzoia,2024-06-04
+Dry Maize,White Maize,-,-,Kathonzweni,30.00/Kg,40.00/Kg,13500.00,Makueni,2024-06-04
+Dry Maize,White Maize,-,-,Kimumu - Bahati,50.00/Kg,60.00/Kg,2000.00,Uasin-Gishu,2024-06-04
+Dry Maize,White Maize,-,-,Kapkwen,35.56/Kg,60.00/Kg,36000.00,Bomet,2024-06-04
+Dry Maize,White Maize,-,-,Nyamakima,39.00/Kg,70.00/Kg,,Nairobi,2024-06-04
+Dry Maize,White Maize,-,-,Maua,38.89/Kg,50.00/Kg,28800.00,Meru,2024-06-04
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,900.00,Meru,2024-06-04
+Dry Maize,Mixed-Traditional,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-06-04
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-04
+Dry Maize,White Maize,-,-,Kangemi Market,35.56/Kg,43.00/Kg,,Nairobi,2024-06-04
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1500.00,Nakuru,2024-06-03
+Dry Maize,Mixed-Traditional,-,-,Chwele,40.00/Kg,40.00/Kg,9000.00,Bungoma,2024-06-03
+Dry Maize,Mixed-Traditional,-,-,Daraja Mbili,32.00/Kg,80.00/Kg,210.00,Kisii,2024-06-03
+Dry Maize,Mixed-Traditional,-,-,Daraja Mbili,23.11/Kg,80.00/Kg,5800.00,Kisii,2024-06-03
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,3500.00,Vihiga,2024-06-03
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-06-03
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,45.00/Kg,1800.00,Kirinyaga,2024-06-03
+Dry Maize,White Maize,-,-,Kangemi Market,36.11/Kg,-,,Nairobi,2024-06-03
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-03
+Dry Maize,White Maize,-,-,Gikomba,31.11/Kg,60.00/Kg,,Nairobi,2024-06-03
+Dry Maize,White Maize,-,-,Eldoret Main,42.50/Kg,50.00/Kg,6300.00,Uasin-Gishu,2024-06-03
+Dry Maize,Mixed-Traditional,-,-,Isebania Market,25.56/Kg,32.00/Kg,76000.00,Migori,2024-06-03
+Dry Maize,White Maize,-,-,Kamukuywa,35.56/Kg,45.00/Kg,15000.00,Bungoma,2024-06-03
+Dry Maize,Yellow Maize,-,-,Kibuye,-,100.00/Kg,,Kisumu,2024-06-03
+Dry Maize,White Maize,-,-,Kibuye,44.44/Kg,45.00/Kg,,Kisumu,2024-06-03
+Dry Maize,White Maize,-,-,Mabera,28.00/Kg,32.00/Kg,6500.00,Migori,2024-06-02
+Dry Maize,White Maize,-,-,Kibiok,45.00/Kg,50.00/Kg,6000.00,Nandi,2024-06-02
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-02
+Dry Maize,White Maize,-,-,Kakamega Town,38.89/Kg,60.00/Kg,40000.00,Kakamega,2024-06-01
+Dry Maize,White Maize,-,-,Molo,-,28.89/Kg,1800.00,Nakuru,2024-06-01
+Dry Maize,White Maize,-,-,Kapsabet Market,38.89/Kg,48.00/Kg,10000.00,Nandi,2024-06-01
+Dry Maize,White Maize,-,-,Mukuyu Market,32.22/Kg,35.56/Kg,,Muranga,2024-06-01
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-06-01
+Dry Maize,White Maize,-,-,Isebania Market,-,30.00/Kg,65000.00,Migori,2024-06-01
+Dry Maize,White Maize,-,-,Ndanai,36.67/Kg,36.00/Kg,11700.00,Bomet,2024-05-31
+Dry Maize,White Maize,-,-,Serem - Vihiga,33.33/Kg,39.13/Kg,10000.00,Vihiga,2024-05-31
+Dry Maize,Mixed-Traditional,-,-,Cheptulu,-,45.00/Kg,4500.00,Vihiga,2024-05-31
+Dry Maize,White Maize,-,-,Rongo,40.00/Kg,35.55/Kg,18000.00,Migori,2024-05-31
+Dry Maize,Mixed-Traditional,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-05-31
+Dry Maize,Yellow Maize,-,-,Gikomba,66.67/Kg,100.00/Kg,,Nairobi,2024-05-31
+Dry Maize,White Maize,-,-,Sikhendu,34.00/Kg,36.00/Kg,410.00,Trans-Nzoia,2024-05-31
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-05-31
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-05-31
+Dry Maize,White Maize,-,-,Chepterit Market - Nandi,50.00/Kg,60.00/Kg,360.00,Nandi,2024-05-31
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,5000.00,Kirinyaga,2024-05-31
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,50.00/Kg,6300.00,Uasin-Gishu,2024-05-31
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,5000.00,Kirinyaga,2024-05-31
+Dry Maize,White Maize,-,-,Kagio,44.44/Kg,65.00/Kg,,Kirinyaga,2024-05-30
+Dry Maize,White Maize,-,-,Mogogosiek Market,37.78/Kg,52.00/Kg,900.00,Bomet,2024-05-30
+Dry Maize,Mixed-Traditional,-,-,Maua,38.89/Kg,50.00/Kg,24300.00,Meru,2024-05-30
+Dry Maize,White Maize,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-05-30
+Dry Maize,Yellow Maize,-,-,Gikomba,66.67/Kg,100.00/Kg,,Nairobi,2024-05-30
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-05-30
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-05-30
+Dry Maize,White Maize,-,-,Kangemi Market,37.78/Kg,-,,Nairobi,2024-05-30
+Dry Maize,White Maize,-,-,Kangemi Market,37.78/Kg,-,,Nairobi,2024-05-30
+Dry Maize,White Maize,-,-,Eldoret Main,40.00/Kg,42.50/Kg,6300.00,Uasin-Gishu,2024-05-30
+Dry Maize,White Maize,-,-,Marindi,-,35.56/Kg,900.00,Migori,2024-05-30
+Dry Maize,Mixed-Traditional,-,-,Serem - Nandi,37.50/Kg,50.00/Kg,20000.00,Nandi,2024-05-30
+Dry Maize,White Maize,-,-,Webuye town,40.00/Kg,50.00/Kg,4000.00,Bungoma,2024-05-29
+Dry Maize,White Maize,-,-,Kabiyet Market,0.03/Kg,0.03/Kg,1000.00,Nandi,2024-05-29
+Dry Maize,White Maize,-,-,Rongo,40.00/Kg,35.55/Kg,4900.00,Migori,2024-05-29
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,4000.00,Vihiga,2024-05-29
+Dry Maize,White Maize,-,-,Cheptulu,-,45.00/Kg,4000.00,Vihiga,2024-05-29
+Dry Maize,Yellow Maize,-,-,Gikomba,66.67/Kg,100.00/Kg,,Nairobi,2024-05-29
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-05-29
+Dry Maize,White Maize,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-05-29
+Dry Maize,White Maize,-,-,Kangeta,38.89/Kg,40.00/Kg,1700.00,Meru,2024-05-29
+Dry Maize,Mixed-Traditional,-,-,Mukuyu Market,33.33/Kg,35.56/Kg,,Muranga,2024-05-29
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-05-29
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,6500.00,Kirinyaga,2024-05-29
+Dry Maize,White Maize,-,-,Isebania Market,26.67/Kg,32.00/Kg,75600.00,Migori,2024-05-28
+Dry Maize,White Maize,-,-,Kerugoya,45.00/Kg,60.00/Kg,4500.00,Kirinyaga,2024-05-28
+Dry Maize,White Maize,-,-,Kapsabet Market,37.78/Kg,40.00/Kg,10000.00,Nandi,2024-05-28
+Dry Maize,White Maize,-,-,Kapkwen,35.56/Kg,60.00/Kg,28000.00,Bomet,2024-05-28
+Dry Maize,White Maize,-,-,Kathonzweni,30.00/Kg,40.00/Kg,7200.00,Makueni,2024-05-28
+Dry Maize,Mixed-Traditional,-,-,Nkubu,33.33/Kg,40.00/Kg,630.00,Meru,2024-05-28
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-05-28
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-05-28
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-05-28
+Dry Maize,White Maize,-,-,Kangemi Market,-,45.00/Kg,,Nairobi,2024-05-28
+Dry Maize,White Maize,-,-,Kangemi Market,36.11/Kg,-,,Nairobi,2024-05-28
+Dry Maize,Mixed-Traditional,-,-,Bondeni,37.50/Kg,45.00/Kg,500.00,Trans-Nzoia,2024-05-28
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,5600.00,Kirinyaga,2024-05-28
+Dry Maize,Mixed-Traditional,-,-,Kiria-ini Market,100.00/Kg,100.00/Kg,900.00,Muranga,2024-05-28
+Dry Maize,Mixed-Traditional,-,-,Kitale Municipality Market,40.00/Kg,45.00/Kg,2100.00,Trans-Nzoia,2024-05-27
+Dry Maize,Mixed-Traditional,-,-,Mabera,-,32.00/Kg,6000.00,Migori,2024-05-27
+Dry Maize,Mixed-Traditional,-,-,Kabati Kitui,30.00/Kg,25.00/Kg,57000.00,Kitui,2024-05-27
+Dry Maize,White Maize,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-05-27
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-05-27
+Dry Maize,White Maize,-,-,Eldoret Main,50.00/Kg,55.00/Kg,2700.00,Uasin-Gishu,2024-05-27
+Dry Maize,White Maize,-,-,Chebunyo,31.11/Kg,50.00/Kg,12000.00,Bomet,2024-05-27
+Dry Maize,White Maize,-,-,Kutus,35.00/Kg,40.00/Kg,1650.00,Kirinyaga,2024-05-27
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-05-27
+Dry Maize,White Maize,-,-,Kangemi Market,68.00/Kg,-,,Nairobi,2024-05-27
+Dry Maize,Yellow Maize,-,-,Gikomba,66.67/Kg,100.00/Kg,,Nairobi,2024-05-27
+Dry Maize,White Maize,-,-,Gikomba,31.11/Kg,60.00/Kg,,Nairobi,2024-05-27
+Dry Maize,Yellow Maize,-,-,Kibuye,-,75.00/Kg,,Kisumu,2024-05-27
+Dry Maize,White Maize,-,-,Kibuye,44.44/Kg,40.00/Kg,,Kisumu,2024-05-27
+Dry Maize,White Maize,-,-,Kibiok,50.00/Kg,55.00/Kg,6000.00,Nandi,2024-05-26
+Dry Maize,White Maize,-,-,Serem - Nandi,37.50/Kg,54.17/Kg,25000.00,Nandi,2024-05-25
+Dry Maize,White Maize,-,-,Isebania Market,26.67/Kg,32.00/Kg,70000.00,Migori,2024-05-25
+Dry Maize,White Maize,-,-,Serem - Vihiga,33.33/Kg,39.13/Kg,10000.00,Vihiga,2024-05-25
+Dry Maize,White Maize,-,-,Kapsabet Market,38.89/Kg,40.00/Kg,10000.00,Nandi,2024-05-25
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-05-25
+Dry Maize,White Maize,-,-,Marindi,28.00/Kg,32.00/Kg,900.00,Migori,2024-05-25
+Dry Maize,White Maize,-,-,Rongo,35.56/Kg,35.55/Kg,4900.00,Migori,2024-05-24
+Dry Maize,Mixed-Traditional,-,-,Ndanai,35.56/Kg,40.00/Kg,12000.00,Bomet,2024-05-24
+Dry Maize,White Maize,-,-,Kisasi,38.00/Kg,42.00/Kg,,Kitui,2024-05-24
+Dry Maize,Yellow Maize,-,-,Gikomba,66.67/Kg,100.00/Kg,,Nairobi,2024-05-24
+Dry Maize,White Maize,-,-,Gikomba,30.00/Kg,60.00/Kg,,Nairobi,2024-05-24
+Dry Maize,Mixed-Traditional,-,-,Nyamakima,37.00/Kg,70.00/Kg,,Nairobi,2024-05-24
+Dry Maize,White Maize,-,-,Kasikeu,38.00/Kg,40.00/Kg,90.00,Makueni,2024-05-24
+Dry Maize,White Maize,-,-,Nyamakima,36.67/Kg,70.00/Kg,,Nairobi,2024-05-24
+Dry Maize,White Maize,-,-,Ngurubani Market,33.33/Kg,40.00/Kg,6500.00,Kirinyaga,2024-05-24
+Dry Maize,White Maize,-,-,Makutano Kirinyaga,33.33/Kg,40.00/Kg,4500.00,Kirinyaga,2024-05-24
+Dry Maize,White Maize,-,-,Kawangware,40.00/Kg,50.00/Kg,,Nairobi,2024-05-24
+Dry Maize,Mixed-Traditional,-,-,Chuka,42.22/Kg,45.00/Kg,900.00,Tharaka-Nithi,2024-05-24
+Dry Maize,White Maize,-,-,Kitale Municipality Market,35.00/Kg,45.00/Kg,2000.00,Trans-Nzoia,2024-05-23
+Dry Maize,White Maize,-,-,Kagio,44.44/Kg,65.00/Kg,,Kirinyaga,2024-05-23
+Dry Maize,White Maize,-,-,Keroka,42.22/Kg,55.00/Kg,23500.00,Nyamira,2024-05-23
+Dry Maize,White Maize,-,-,Mogogosiek Market,33.33/Kg,52.00/Kg,360.00,Bomet,2024-05-23
+Dry Maize,White Maize,-,-,Karatina,44.44/Kg,60.00/Kg,,Nyeri,2024-05-23
+Dry Maize,White Maize,-,-,Nyamakima,90.00/Kg,70.00/Kg,,Nairobi,2024-05-23
