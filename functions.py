@@ -323,7 +323,7 @@ binary_encoder = joblib.load('binary_encoder.pkl')
 def generate_predictions(
     counties, 
     forecast_horizon=20, 
-    lag_features_placeholder=[0.0] * 6,  # Adjust length based on model requirements
+    lag_features_placeholder=[0.0] * 7,  # Adjust length based on model requirements
     save_path="predictions.csv"
 ):
     """
