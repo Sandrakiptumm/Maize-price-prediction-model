@@ -246,3 +246,125 @@ def predict_and_save(current_date, county, reference_data, model, output_file, w
     })
     predicted_prices_df.to_csv(output_file, index=False)
     print(f"Predictions for {county} saved to {output_file}")
+
+
+
+
+import pandas as pd
+from datetime import datetime
+from tensorflow.keras.models import load_model
+import pickle
+import numpy as np
+import joblib
+# from predict import predict_and_save  # Import the predict_and_save function
+
+# Load necessary files
+wholesale_model = load_model("models/best_wholesale_model_sequence.h5")
+retail_model = load_model("models/best_retail_model_sequence.h5")
+
+# Load scalers
+# with open("models/scaler_wholesale_features.pkl", "rb") as f:
+#     wholesale_features_scaler = pickle.load(f)
+# with open("models/scaler_wholesale_target.pkl", "rb") as f:
+#     wholesale_target_scaler = pickle.load(f)
+# with open("models/scaler_retail_features.pkl", "rb") as f:
+#     retail_features_scaler = pickle.load(f)
+# with open("models/scaler_retail_target.pkl", "rb") as f:
+#     retail_target_scaler = pickle.load(f)
+
+import joblib
+
+# Load the scalers using joblib
+wholesale_features_scaler = joblib.load("models/scaler_wholesale_features.pkl")
+wholesale_target_scaler = joblib.load("models/scaler_wholesale_target.pkl")
+retail_features_scaler = joblib.load("models/scaler_retail_features.pkl")
+retail_target_scaler = joblib.load("models/scaler_retail_target.pkl")
+
+# Load encoder
+county_encoder = joblib.load("models\County_binary_encoder.pkl")
+
+# Read reference data (use your actual file path here)
+reference_data = pd.read_csv("historical_data.csv")
+
+# Set the current date for prediction
+current_date = datetime.now().strftime("%Y-%m-%d")
+
+# Example county you want to predict for
+county = 'Siaya'  # Replace with the county you want to test
+
+# Set the output prediction file path
+prediction_save_path = "predictions.csv"
+
+# Call the predict_and_save function for wholesale prediction
+# predict_and_save(
+#     current_date=current_date,
+#     county=county,
+#     reference_data=reference_data,
+#     model=wholesale_model,
+#     output_file=prediction_save_path,
+#     wholesale_scalers=(wholesale_features_scaler, wholesale_target_scaler),
+#     retail_scalers=(retail_features_scaler, retail_target_scaler),
+#     encoder=county_encoder
+# )
+
+import pandas as pd
+from datetime import datetime
+from tensorflow.keras.models import load_model
+import joblib
+import numpy as np
+
+# Define the function predict_and_save (ensure it's in your script or imported)
+# from predict import predict_and_save
+
+# Load necessary files
+wholesale_model = load_model("models/best_wholesale_model_sequence.h5")
+retail_model = load_model("models/best_retail_model_sequence.h5")
+
+# Load scalers using joblib
+wholesale_features_scaler = joblib.load("models/scaler_wholesale_features.pkl")
+wholesale_target_scaler = joblib.load("models/scaler_wholesale_target.pkl")
+retail_features_scaler = joblib.load("models/scaler_retail_features.pkl")
+retail_target_scaler = joblib.load("models/scaler_retail_target.pkl")
+
+# Load encoder
+county_encoder = joblib.load("models/County_binary_encoder.pkl")
+
+# Read reference data (use your actual file path here)
+reference_data = pd.read_csv("historical_data.csv")
+
+# Set the current date for prediction
+current_date = datetime.now().strftime("%Y-%m-%d")
+
+# List of counties
+counties = [
+    'Baringo', 'Bomet', 'Bungoma', 'Busia', 'Elgeyo-Marakwet', 'Embu',
+    'Garissa', 'Homa-bay', 'Isiolo', 'Kajiado', 'Kakamega', 'Kericho',
+    'Kiambu', 'Kilifi', 'Kirinyaga', 'Kisii', 'Kisumu', 'Kitui',
+    'Kwale', 'Laikipia', 'Lamu', 'Machakos', 'Makueni', 'Mandera',
+    'Meru', 'Migori', 'Mombasa', 'Muranga', 'Nairobi', 'Nakuru',
+    'Nandi', 'Narok', 'Nyamira', 'Nyandarua', 'Nyeri', 'Samburu',
+    'Siaya', 'Taita-Taveta', 'Tana-River', 'Tharaka-Nithi',
+    'Trans-Nzoia', 'Turkana', 'Uasin-Gishu', 'Vihiga', 'Wajir',
+    'West-Pokot'
+]
+
+# Iterate through each county and save predictions
+for county in counties:
+    output_file = f"predictions_{county}.csv"  # Save each county's predictions in a separate file
+    try:
+        predict_and_save(
+            current_date=current_date,
+            county=county,
+            reference_data=reference_data,
+            model=wholesale_model,
+            output_file=output_file,
+            wholesale_scalers=(wholesale_features_scaler, wholesale_target_scaler),
+            retail_scalers=(retail_features_scaler, retail_target_scaler),
+            encoder=county_encoder
+        )
+        print(f"Predictions for {county} saved to {output_file}.")
+    except Exception as e:
+        print(f"Failed to generate predictions for {county}. Error: {e}")
+
+
+print(f"Predictions for {county} saved to {prediction_save_path}.")

@@ -73,7 +73,7 @@ def remove_outliers(data, columns):
         data = data.loc[~outliers]
     return data
 
-def export_data(data, file_name="clean_data.csv"):
+def export_data(data, file_name="clean_data2.csv"):
     """Export cleaned data to a CSV file."""
     data.to_csv(file_name, index=False)
     print("Data cleaning and export complete.")
@@ -103,13 +103,99 @@ def run_data_processing():
     data = data.drop_duplicates()
 
     # Export the cleaned data to CSV
-    export_data(data, "clean_data.csv")
+    export_data(data, "clean_data2.csv")
 
-# feature engineering function
+# # feature engineering function
+# def load_data(file_path):
+#     """Load the cleaned CSV data."""
+#     return pd.read_csv(file_path)
+
+# def extract_time_features(data):
+#     """Extract year, month, day, day of the week, and quarter from date."""
+#     data['Date'] = pd.to_datetime(data['Date'])
+#     data['Year'] = data['Date'].dt.year
+#     data['Month'] = data['Date'].dt.month
+#     data['Day'] = data['Date'].dt.day
+#     data['DayOfWeek'] = data['Date'].dt.dayofweek
+#     data['Quarter'] = data['Date'].dt.quarter
+#     return data
+
+# def add_cyclic_features(data):
+#     """Add cyclic features for month, day, day of the week, quarter, and year."""
+#     data['Month_sin'] = np.sin(2 * np.pi * data['Month'] / 12)
+#     data['Month_cos'] = np.cos(2 * np.pi * data['Month'] / 12)
+#     data['Day_sin'] = np.sin(2 * np.pi * data['Day'] / 31)
+#     data['Day_cos'] = np.cos(2 * np.pi * data['Day'] / 31)
+#     data['DayOfWeek_sin'] = np.sin(2 * np.pi * data['DayOfWeek'] / 7)
+#     data['DayOfWeek_cos'] = np.cos(2 * np.pi * data['DayOfWeek'] / 7)
+#     data['Quarter_sin'] = np.sin(2 * np.pi * data['Quarter'] / 4)
+#     data['Quarter_cos'] = np.cos(2 * np.pi * data['Quarter'] / 4)
+#     year_range = data['Year'].max() - data['Year'].min()
+#     data['Year_sin'] = np.sin(2 * np.pi * (data['Year'] - data['Year'].min()) / year_range)
+#     data['Year_cos'] = np.cos(2 * np.pi * (data['Year'] - data['Year'].min()) / year_range)
+#     return data
+
+# def add_lagged_features(data, lag_days=7):
+#     """Add lagged features for wholesale, retail, and supply volume."""
+#     for lag in [lag_days]: 
+#         data[f'Wholesale_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Wholesale'].shift(lag)
+#         data[f'Retail_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Retail'].shift(lag)
+#         data[f'Supply_Volume_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Supply Volume'].shift(lag)
+#     return data
+
+# def add_rolling_features(data, rolling_windows={'7d': 7}):
+#     """Add rolling mean and std features for wholesale, retail, and supply volume."""
+#     data = data.sort_values(by=['Market', 'Classification', 'Date'])
+#     for window_name, window_size in rolling_windows.items():
+#         for column in ['Wholesale', 'Retail', 'Supply Volume']:
+#             data[f'{column}_rolling_mean_{window_name}'] = data.groupby(['Market', 'Classification'])[column].transform(lambda x: x.rolling(window=window_size, min_periods=1).mean())
+#             data[f'{column}_rolling_std_{window_name}'] = data.groupby(['Market', 'Classification'])[column].transform(lambda x: x.rolling(window=window_size, min_periods=1).std())
+#     return data.bfill().ffill()
+
+# def encode_categorical_features(data, columns_to_encode):
+#     """Binary encode specified categorical columns."""
+#     binary_encoder = ce.BinaryEncoder(cols=columns_to_encode, return_df=True)
+#     return binary_encoder.fit_transform(data)
+
+# def filter_columns_by_correlation(data, target_columns, threshold=0.1):
+#     """Filter columns based on correlation with target columns."""
+#     correlation_matrix = data.corr()
+#     correlation_with_target = correlation_matrix[target_columns]
+#     filtered_columns = correlation_with_target[(correlation_with_target['Retail'].abs() > threshold) | 
+#                                                (correlation_with_target['Wholesale'].abs() > threshold)]
+#     filtered_column_names = [col for col in filtered_columns.index if col not in target_columns]
+#     return data[filtered_column_names + target_columns]
+
+# def export_modeling_data(data, file_name="modeling_data.csv"):
+#     """Export the final dataset for modeling."""
+#     data.to_csv(file_name, index=False)
+
+# def feature_engineering_pipeline():
+#     # Load and process data
+#     data = load_data("clean_data2.csv")
+#     data = extract_time_features(data)
+#     data = add_cyclic_features(data)
+#     data = add_lagged_features(data)
+#     data = add_rolling_features(data, rolling_windows={'7d': 7})
+    
+#     # Encode and filter features
+#     data = encode_categorical_features(data, columns_to_encode=['County', 'Market', 'Classification'])
+#     final_data = filter_columns_by_correlation(data, target_columns=['Retail', 'Wholesale'], threshold=0.1)
+    
+#     # Export data
+#     export_modeling_data(final_data, "modeling_data_2.csv")
+#     print("Feature engineering and export complete.")
+
+import pandas as pd
+import numpy as np
+import category_encoders as ce
+
+# Load data
 def load_data(file_path):
     """Load the cleaned CSV data."""
     return pd.read_csv(file_path)
 
+# Extract time features
 def extract_time_features(data):
     """Extract year, month, day, day of the week, and quarter from date."""
     data['Date'] = pd.to_datetime(data['Date'])
@@ -120,6 +206,7 @@ def extract_time_features(data):
     data['Quarter'] = data['Date'].dt.quarter
     return data
 
+# Add cyclic features
 def add_cyclic_features(data):
     """Add cyclic features for month, day, day of the week, quarter, and year."""
     data['Month_sin'] = np.sin(2 * np.pi * data['Month'] / 12)
@@ -135,14 +222,16 @@ def add_cyclic_features(data):
     data['Year_cos'] = np.cos(2 * np.pi * (data['Year'] - data['Year'].min()) / year_range)
     return data
 
+# Add lagged features
 def add_lagged_features(data, lag_days=7):
     """Add lagged features for wholesale, retail, and supply volume."""
     for lag in [lag_days]: 
-        data[f'Wholesale_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Wholesale'].shift(lag)
-        data[f'Retail_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Retail'].shift(lag)
-        data[f'Supply_Volume_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Supply Volume'].shift(lag)
+        data[f'Wholesale_lag_{lag}'] = data.groupby(['County', 'Market', 'Classification'])['Wholesale'].shift(lag)
+        data[f'Retail_lag_{lag}'] = data.groupby(['County', 'Market', 'Classification'])['Retail'].shift(lag)
+        data[f'Supply_Volume_lag_{lag}'] = data.groupby(['County', 'Market', 'Classification'])['Supply Volume'].shift(lag)
     return data
 
+# Add rolling features
 def add_rolling_features(data, rolling_windows={'7d': 7}):
     """Add rolling mean and std features for wholesale, retail, and supply volume."""
     data = data.sort_values(by=['Market', 'Classification', 'Date'])
@@ -152,11 +241,13 @@ def add_rolling_features(data, rolling_windows={'7d': 7}):
             data[f'{column}_rolling_std_{window_name}'] = data.groupby(['Market', 'Classification'])[column].transform(lambda x: x.rolling(window=window_size, min_periods=1).std())
     return data.bfill().ffill()
 
+# Encode categorical features
 def encode_categorical_features(data, columns_to_encode):
     """Binary encode specified categorical columns."""
     binary_encoder = ce.BinaryEncoder(cols=columns_to_encode, return_df=True)
     return binary_encoder.fit_transform(data)
 
+# Filter columns based on correlation
 def filter_columns_by_correlation(data, target_columns, threshold=0.1):
     """Filter columns based on correlation with target columns."""
     correlation_matrix = data.corr()
@@ -164,12 +255,9 @@ def filter_columns_by_correlation(data, target_columns, threshold=0.1):
     filtered_columns = correlation_with_target[(correlation_with_target['Retail'].abs() > threshold) | 
                                                (correlation_with_target['Wholesale'].abs() > threshold)]
     filtered_column_names = [col for col in filtered_columns.index if col not in target_columns]
-    return data[filtered_column_names + target_columns]
+    return filtered_column_names
 
-def export_modeling_data(data, file_name="modeling_data.csv"):
-    """Export the final dataset for modeling."""
-    data.to_csv(file_name, index=False)
-
+# Main feature engineering pipeline
 def feature_engineering_pipeline():
     # Load and process data
     data = load_data("clean_data2.csv")
@@ -180,11 +268,33 @@ def feature_engineering_pipeline():
     
     # Encode and filter features
     data = encode_categorical_features(data, columns_to_encode=['County', 'Market', 'Classification'])
-    final_data = filter_columns_by_correlation(data, target_columns=['Retail', 'Wholesale'], threshold=0.1)
-    
-    # Export data
-    export_modeling_data(final_data, "modeling_data_2.csv")
+    target_columns = ['Retail', 'Wholesale']
+    filtered_column_names = filter_columns_by_correlation(data, target_columns, threshold=0.1)
+
+    # Prepare historical data
+    columns_to_include = filtered_column_names + ['County']  # Add 'County' to the filtered columns
+    historical_data = data[columns_to_include]
+    historical_data = historical_data.join(data[['Wholesale', 'Retail']])
+
+    # Calculate daily averages per county
+    daily_average_data = historical_data.groupby(['County', 'Date']).agg({
+        'Wholesale': 'mean',
+        'Retail': 'mean',
+    }).reset_index()
+
+    # Merge daily averages back with historical data
+    historical_data_with_averages = historical_data.merge(daily_average_data, on=['County', 'Date'], suffixes=('', '_avg'))
+
+    # Save historical data
+    historical_data_with_averages.to_csv("historical_data.csv", index=False)
+    print("Filtered data with daily average per county saved to 'historical_data.csv'.")
+
+    # Export final data for modeling
+    data.to_csv("modeling_data_2.csv", index=False)
     print("Feature engineering and export complete.")
+
+# Run the pipeline
+feature_engineering_pipeline()
 
 
 import pandas as pd
