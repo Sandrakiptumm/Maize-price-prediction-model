@@ -1,6 +1,6 @@
 /.git
 /__pycache__
-/new_env
 /heroku_env
 /my_tuning_dir
 /timeseries
+*.ipynb
