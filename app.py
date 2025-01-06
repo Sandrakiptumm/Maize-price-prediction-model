@@ -1,8 +1,11 @@
 from flask import Flask, request, jsonify
 import pandas as pd
+from flask_cors import CORS
 
 # Initialize the Flask app
 app = Flask(__name__)
+CORS(app)
+# resources={,r"/predict": {"origins": "https://www.farmer.maizeai.me"}}
 
 # Load saved predictions
 try:
@@ -37,7 +40,7 @@ def get_prediction():
         
         # Fetch the prediction row from the DataFrame
         prediction_row = predictions_df[
-            (predictions_df["county"].str.lower() == county.lower()) & 
+            (predictions_df["County"].str.lower() == county.lower()) & 
             (predictions_df["Date"] == date)
         ]
         

@@ -1,24 +1,30 @@
-import pandas as pd
-import numpy as np
-from sklearn.impute import KNNImputer
-from scipy import stats
-from flask import Flask, jsonify, request
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import FunctionTransformer
-import pandas as pd
-import numpy as np
-import category_encoders as ce
-from scipy import stats
+# Standard library imports
+from datetime import datetime, timedelta
 import os
-from flask import request, jsonify
-from flask import Flask, request, jsonify
-import numpy as np
-import pandas as pd
-import tensorflow as tf
-from tensorflow.keras.models import load_model
-from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 import json
 
+# Third-party library imports
+import numpy as np
+import pandas as pd
+from scipy import stats
+import joblib
+
+# Flask imports
+from flask import Flask, request, jsonify
+
+# Machine learning and preprocessing imports
+from sklearn.impute import KNNImputer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import FunctionTransformer, StandardScaler
+import category_encoders as ce
+
+# TensorFlow/Keras imports
+import tensorflow as tf
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import LSTM, Dense, Dropout
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.regularizers import l2
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau, ModelCheckpoint
 
 
 def load_and_combine_data(file_paths, scraped_csv_path=None):
@@ -105,90 +111,6 @@ def run_data_processing():
     # Export the cleaned data to CSV
     export_data(data, "clean_data2.csv")
 
-# # feature engineering function
-# def load_data(file_path):
-#     """Load the cleaned CSV data."""
-#     return pd.read_csv(file_path)
-
-# def extract_time_features(data):
-#     """Extract year, month, day, day of the week, and quarter from date."""
-#     data['Date'] = pd.to_datetime(data['Date'])
-#     data['Year'] = data['Date'].dt.year
-#     data['Month'] = data['Date'].dt.month
-#     data['Day'] = data['Date'].dt.day
-#     data['DayOfWeek'] = data['Date'].dt.dayofweek
-#     data['Quarter'] = data['Date'].dt.quarter
-#     return data
-
-# def add_cyclic_features(data):
-#     """Add cyclic features for month, day, day of the week, quarter, and year."""
-#     data['Month_sin'] = np.sin(2 * np.pi * data['Month'] / 12)
-#     data['Month_cos'] = np.cos(2 * np.pi * data['Month'] / 12)
-#     data['Day_sin'] = np.sin(2 * np.pi * data['Day'] / 31)
-#     data['Day_cos'] = np.cos(2 * np.pi * data['Day'] / 31)
-#     data['DayOfWeek_sin'] = np.sin(2 * np.pi * data['DayOfWeek'] / 7)
-#     data['DayOfWeek_cos'] = np.cos(2 * np.pi * data['DayOfWeek'] / 7)
-#     data['Quarter_sin'] = np.sin(2 * np.pi * data['Quarter'] / 4)
-#     data['Quarter_cos'] = np.cos(2 * np.pi * data['Quarter'] / 4)
-#     year_range = data['Year'].max() - data['Year'].min()
-#     data['Year_sin'] = np.sin(2 * np.pi * (data['Year'] - data['Year'].min()) / year_range)
-#     data['Year_cos'] = np.cos(2 * np.pi * (data['Year'] - data['Year'].min()) / year_range)
-#     return data
-
-# def add_lagged_features(data, lag_days=7):
-#     """Add lagged features for wholesale, retail, and supply volume."""
-#     for lag in [lag_days]: 
-#         data[f'Wholesale_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Wholesale'].shift(lag)
-#         data[f'Retail_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Retail'].shift(lag)
-#         data[f'Supply_Volume_lag_{lag}'] = data.groupby(['County','Market', 'Classification'])['Supply Volume'].shift(lag)
-#     return data
-
-# def add_rolling_features(data, rolling_windows={'7d': 7}):
-#     """Add rolling mean and std features for wholesale, retail, and supply volume."""
-#     data = data.sort_values(by=['Market', 'Classification', 'Date'])
-#     for window_name, window_size in rolling_windows.items():
-#         for column in ['Wholesale', 'Retail', 'Supply Volume']:
-#             data[f'{column}_rolling_mean_{window_name}'] = data.groupby(['Market', 'Classification'])[column].transform(lambda x: x.rolling(window=window_size, min_periods=1).mean())
-#             data[f'{column}_rolling_std_{window_name}'] = data.groupby(['Market', 'Classification'])[column].transform(lambda x: x.rolling(window=window_size, min_periods=1).std())
-#     return data.bfill().ffill()
-
-# def encode_categorical_features(data, columns_to_encode):
-#     """Binary encode specified categorical columns."""
-#     binary_encoder = ce.BinaryEncoder(cols=columns_to_encode, return_df=True)
-#     return binary_encoder.fit_transform(data)
-
-# def filter_columns_by_correlation(data, target_columns, threshold=0.1):
-#     """Filter columns based on correlation with target columns."""
-#     correlation_matrix = data.corr()
-#     correlation_with_target = correlation_matrix[target_columns]
-#     filtered_columns = correlation_with_target[(correlation_with_target['Retail'].abs() > threshold) | 
-#                                                (correlation_with_target['Wholesale'].abs() > threshold)]
-#     filtered_column_names = [col for col in filtered_columns.index if col not in target_columns]
-#     return data[filtered_column_names + target_columns]
-
-# def export_modeling_data(data, file_name="modeling_data.csv"):
-#     """Export the final dataset for modeling."""
-#     data.to_csv(file_name, index=False)
-
-# def feature_engineering_pipeline():
-#     # Load and process data
-#     data = load_data("clean_data2.csv")
-#     data = extract_time_features(data)
-#     data = add_cyclic_features(data)
-#     data = add_lagged_features(data)
-#     data = add_rolling_features(data, rolling_windows={'7d': 7})
-    
-#     # Encode and filter features
-#     data = encode_categorical_features(data, columns_to_encode=['County', 'Market', 'Classification'])
-#     final_data = filter_columns_by_correlation(data, target_columns=['Retail', 'Wholesale'], threshold=0.1)
-    
-#     # Export data
-#     export_modeling_data(final_data, "modeling_data_2.csv")
-#     print("Feature engineering and export complete.")
-
-import pandas as pd
-import numpy as np
-import category_encoders as ce
 
 # Load data
 def load_data(file_path):
@@ -242,10 +164,44 @@ def add_rolling_features(data, rolling_windows={'7d': 7}):
     return data.bfill().ffill()
 
 # Encode categorical features
-def encode_categorical_features(data, columns_to_encode):
-    """Binary encode specified categorical columns."""
-    binary_encoder = ce.BinaryEncoder(cols=columns_to_encode, return_df=True)
-    return binary_encoder.fit_transform(data)
+# def encode_categorical_features(data, columns_to_encode):
+#     """Binary encode specified categorical columns."""
+#     binary_encoder = ce.BinaryEncoder(cols=columns_to_encode, return_df=True)
+#     return binary_encoder.fit_transform(data)
+
+def encode_categorical_features(df, encoders_path, columns_to_encode=['County', 'Market', 'Classification']):
+    """
+    Encodes specified categorical columns in the DataFrame using pre-trained binary encoders.
+
+    Parameters:
+        df (pd.DataFrame): The input DataFrame with categorical columns to encode.
+        encoders_path (str): Path to the directory containing the saved encoders.
+        columns_to_encode (list, optional): List of columns to encode. If None, all columns with saved encoders are used.
+
+    Returns:
+        pd.DataFrame: The DataFrame with encoded categorical features.
+    """
+    # List all saved encoders
+    encoder_files = [f for f in os.listdir(encoders_path) if f.endswith('.joblib')]
+
+    for encoder_file in encoder_files:
+        # Load each encoder
+        encoder = joblib.load(os.path.join(encoders_path, encoder_file))
+
+        # Extract the column name from the encoder filename
+        column_name = encoder_file.replace('_encoder.joblib', '')
+
+        # Check if the column is in the DataFrame and in the columns_to_encode list (if provided)
+        if column_name in df.columns and (columns_to_encode is None or column_name in columns_to_encode):
+            # Transform the column using the pre-trained encoder
+            encoded_data = encoder.transform(df[[column_name]])
+
+            # Add encoded columns to the DataFrame
+            df = df.drop(columns=[column_name])
+            df = pd.concat([df, encoded_data], axis=1)
+
+    return df
+
 
 # Filter columns based on correlation
 def filter_columns_by_correlation(data, target_columns, threshold=0.1):
@@ -295,17 +251,6 @@ def feature_engineering_pipeline():
 
 # Run the pipeline
 feature_engineering_pipeline()
-
-
-import pandas as pd
-import numpy as np
-from sklearn.preprocessing import StandardScaler
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import LSTM, Dense, Dropout
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.regularizers import l2
-from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
-import joblib
 
 
 def train_lstm_model(
@@ -388,109 +333,7 @@ def train_lstm_model(
     return history
 
 
-# Train Wholesale model
-train_lstm_model(
-    target_variable='Wholesale',
-    scaler_feature_path="models/scaler_wholesale_features.pkl",
-    scaler_target_path="models/scaler_wholesale_target.pkl",
-    model_save_path="models/best_wholesale_model_sequence.h5"
-)
-
-# Train Retail model
-train_lstm_model(
-    target_variable='Retail',
-    scaler_feature_path="models/scaler_retail_features.pkl",
-    scaler_target_path="models/scaler_retail_target.pkl",
-    model_save_path="models/best_retail_model_sequence.h5"
-)
 
 
-from flask import Flask
-from tensorflow.keras.models import load_model
-from datetime import datetime, timedelta
-import numpy as np
-import pandas as pd
-import joblib
 
-
-# Initialize Flask app
-app = Flask(__name__)
-
-# Load pre-trained Keras models
-wholesale_model = load_model("models/best_wholesale_model_sequence.h5")
-retail_model = load_model("models/best_retail_model_sequence.h5")
-
-# Load scalers
-scaler_features_wholesale = joblib.load("models/scaler_wholesale_features.pkl")
-scaler_wholesale_target = joblib.load("models/scaler_wholesale_target.pkl")
-scaler_features_retail = joblib.load("models/scaler_retail_features.pkl")
-scaler_retail_target = joblib.load("models/scaler_retail_target.pkl")
-
-# Load binary encoder
-binary_encoder = joblib.load('binary_encoder.pkl')
-
-# Generate predictions function
-def generate_predictions(
-    counties, 
-    forecast_horizon=20, 
-    lag_features_placeholder=[0.0] * 7,  # Adjust length based on model requirements
-    save_path="predictions.csv"
-):
-    """
-    Generates wholesale and retail predictions for the next forecast_horizon days
-    for the given counties and saves results to a CSV file.
-
-    Args:
-        counties (list): List of county names to predict for.
-        forecast_horizon (int): Number of days to forecast.
-        lag_features_placeholder (list): Placeholder for lag features (to be replaced with actual logic).
-        save_path (str): Path to save the predictions CSV.
-    """
-    predictions = []
-    today = datetime.now().date()
-
-    # Iterate over counties and forecast horizon
-    for county in counties:
-        for i in range(1, forecast_horizon + 1):
-            future_date = today + timedelta(days=i)
-            year = future_date.year
-            year_sin = np.sin(2 * np.pi * (future_date.timetuple().tm_yday / 365))
-            year_cos = np.cos(2 * np.pi * (future_date.timetuple().tm_yday / 365))
-            
-            try:
-                # Binary encode the county
-                county_encoded = binary_encoder.transform(pd.DataFrame({"County": [county]}))
-                # Ensure the encoder output matches model expectations
-                county_encoded_values = county_encoded.values.flatten()
-            except ValueError as e:
-                print(f"Encoding failed for county '{county}': {e}")
-                continue
-            
-            # Prepare features
-            features = np.array([*county_encoded_values, year, year_sin, year_cos] + lag_features_placeholder).reshape(1, -1)
-            
-            # Wholesale prediction
-            scaled_features_wholesale = scaler_features_wholesale.transform(features)
-            scaled_features_wholesale = scaled_features_wholesale.reshape((1, scaled_features_wholesale.shape[1], 1))
-            scaled_prediction_wholesale = wholesale_model.predict(scaled_features_wholesale)
-            wholesale_prediction = scaler_wholesale_target.inverse_transform(scaled_prediction_wholesale)[0][0]
-            
-            # Retail prediction
-            scaled_features_retail = scaler_features_retail.transform(features)
-            scaled_features_retail = scaled_features_retail.reshape((1, scaled_features_retail.shape[1], 1))
-            scaled_prediction_retail = retail_model.predict(scaled_features_retail)
-            retail_prediction = scaler_retail_target.inverse_transform(scaled_prediction_retail)[0][0]
-            
-            # Save predictions
-            predictions.append({
-                "county": county,
-                "date": str(future_date),
-                "wholesale_prediction": wholesale_prediction,
-                "retail_prediction": retail_prediction
-            })
-    
-    # Save predictions to CSV
-    predictions_df = pd.DataFrame(predictions)
-    predictions_df.to_csv(save_path, index=False)
-    print(f"Predictions saved to {save_path}!")
 

@@ -1,157 +1,24 @@
-# import pandas as pd
-# import numpy as np
-# import joblib
-# import tensorflow as tf
-# from datetime import datetime
+import pandas as pd
+import numpy as np
+import joblib
+import tensorflow as tf
+from datetime import datetime
 
-# # Get the current date and time
-# current_date = datetime.now().strftime("%Y-%m-%d")
-
-# # Correct the path to the trained model
-# trained_model = tf.keras.models.load_model(r"models\best_retail_model_sequence.h5")
-
-# # Load historical data
-# historical_data = pd.read_csv("historical_data.csv")
-
-
-# def predict_and_save(current_date, county, reference_data, model, output_file):
-#     # Ensure required columns are in reference_data
-#     required_columns = [
-#         "County", "Date", "Wholesale", "Retail", "Year", "Year_sin", "Year_cos", 
-#         "Wholesale_lag_7", "Retail_lag_7", "Wholesale_rolling_mean_7d", "Retail_rolling_mean_7d", 
-#         "Wholesale_rolling_std_7d", "Retail_rolling_std_7d", "County_2"
-#     ]
-#     for col in required_columns:
-#         if col not in reference_data.columns:
-#             raise ValueError(f"Missing required column in reference_data: {col}")
-
-#     # Convert dates to datetime for filtering
-#     reference_data["Date"] = pd.to_datetime(reference_data["Date"])
-#     current_date = pd.to_datetime(current_date)
-
-#     # Filter data for the specified county and ensure it's sorted by date
-#     county_data = reference_data[reference_data["County"] == county].sort_values(by="Date")
-
-#     # Check if we have sufficient historical data for feature generation
-#     min_required_date = current_date - pd.Timedelta(days=7)
-#     if county_data["Date"].min() > min_required_date:
-#         print(f"Insufficient historical data for {county} on {current_date.date()}. Prediction cannot proceed.")
-#         return  # Exit the function gracefully
-
-#     # Generate lagged and rolling features
-#     def add_lagged_and_rolling_features(group):
-#         group["Wholesale_lag_7"] = group["Wholesale"].shift(7)
-#         group["Retail_lag_7"] = group["Retail"].shift(7)
-#         group["Wholesale_rolling_mean_7d"] = group["Wholesale"].shift(1).rolling(window=7).mean()
-#         group["Retail_rolling_mean_7d"] = group["Retail"].shift(1).rolling(window=7).mean()
-#         group["Wholesale_rolling_std_7d"] = group["Wholesale"].shift(1).rolling(window=7).std()
-#         group["Retail_rolling_std_7d"] = group["Retail"].shift(1).rolling(window=7).std()
-#         return group
-
-#     county_data = add_lagged_and_rolling_features(county_data)
-
-#     # Filter data for the current_date
-#     input_row = county_data[county_data["Date"] == current_date]
-#     if input_row.empty:
-#         # Create a new row for `current_date`
-#         new_row = {
-#             "Date": current_date,
-#             "County": county,
-#             "Wholesale": np.nan,  # Placeholder, as this value isn't used for prediction
-#             "Retail": np.nan,     # Placeholder, as this value isn't used for prediction
-#             "Wholesale_lag_7": county_data["Wholesale"].iloc[-7],  # Use data from 7 days ago
-#             "Retail_lag_7": county_data["Retail"].iloc[-7],
-#             "Wholesale_rolling_mean_7d": county_data["Wholesale"].iloc[:-1].rolling(7).mean().iloc[-1],
-#             "Retail_rolling_mean_7d": county_data["Retail"].iloc[:-1].rolling(7).mean().iloc[-1],
-#             "Wholesale_rolling_std_7d": county_data["Wholesale"].iloc[:-1].rolling(7).std().iloc[-1],
-#             "Retail_rolling_std_7d": county_data["Retail"].iloc[:-1].rolling(7).std().iloc[-1],
-#         }
-#         county_data = pd.concat([county_data, pd.DataFrame([new_row])], ignore_index=True)
-#         input_row = county_data[county_data["Date"] == current_date]
-
-#     # Apply the correct encoder for 'County_2'
-#     binary_encoder = joblib.load("models/County_binary_encoder.pkl")  # Assuming you saved it as binary_encoder.pkl
-#     county_encoded = binary_encoder.transform(pd.DataFrame({"County": [county]}))
-
-#     # Set 'County_2' value
-#     input_row.loc[:, "County_2"] = county_encoded.iloc[0, 5]
-
-#     # Define the feature columns for the model
-#     feature_columns = ['County_2', 'Year', 'Year_sin', 'Year_cos', 'Wholesale_lag_7', 'Retail_lag_7', 'Wholesale_rolling_mean_7d', 'Wholesale_rolling_std_7d', 'Retail_rolling_mean_7d' ,'Retail_rolling_std_7d']
-#     if not all(col in input_row.columns for col in feature_columns):
-#         missing_cols = [col for col in feature_columns if col not in input_row.columns]
-#         raise ValueError(f"Missing feature columns: {missing_cols}")
-
-#     # Collect the last 20 days of features
-#     X_last_20_days = county_data[feature_columns].iloc[-20:]
-
-#     # Check for NaNs in the features and handle them
-#     if X_last_20_days.isna().any().any():
-#         print(f"NaN values detected in the last 20 days of features for {county} on {current_date.date()}")
-#         X_last_20_days = X_last_20_days.fillna(method='ffill').fillna(method='bfill')  # Fill NaNs with forward/backward fill
-
-#     # Scale features
-#     scaler_path = "models/scaler_retail_features.pkl"
-#     scaler = joblib.load(scaler_path)
-#     X_last_20_days_scaled = scaler.transform(X_last_20_days)
-
-#     # Reshape into 3D for the model (1 batch, 20 timesteps, number of features)
-#     X_pred = X_last_20_days_scaled.reshape((1, 20, len(feature_columns)))
-
-#     # Run prediction using the model
-#     prediction = model.predict(X_pred)
-
-#     # Check if predictions are valid
-#     if np.isnan(prediction).any():
-#         print("Prediction contains NaN values.")
-#         return  # Exit gracefully if NaNs are present in prediction
-
-#     # Flatten prediction if it's in the shape (1, 20, 1)
-#     prediction = prediction.flatten()
-
-#     # Create a DataFrame for the next 20 days
-#     future_dates = pd.date_range(start=current_date, periods=20, freq='D')
-#     predicted_wholesale_df = pd.DataFrame({
-#         "Date": future_dates,
-#         "County": [county] * 20,
-#         "Predicted_Wholesale": prediction
-#     })
-
-#     # Save the predictions to the specified output file
-#     predicted_wholesale_df.to_csv(output_file, index=False)
-#     print(f"Predictions for {county} from {current_date.date()} saved to {output_file}")
-
-# # Example usage
-# predict_and_save(
-#     current_date=current_date,  # Use the current date
-#     county="Nairobi",           # Example county
-#     reference_data=historical_data,  # Your historical data
-#     model=trained_model,        # Your trained model
-#     output_file="predictions.csv"
-# )
-
-
-
-
-
-def predict_and_save(current_date, county, reference_data, model, output_file, wholesale_scalers, retail_scalers, encoder):
+def predict_and_save_all(current_date, reference_data, wholesale_model, retail_model, wholesale_scalers, retail_scalers, encoder, counties, output_file):
     """
-    Predicts and saves wholesale and retail prices for a given county.
+    Predicts and saves wholesale and retail prices for all counties in one CSV.
     
     Parameters:
     - current_date: str, the current date in "YYYY-MM-DD" format.
-    - county: str, the name of the county for prediction.
     - reference_data: DataFrame, the historical price data.
-    - model: Trained model for predictions.
-    - output_file: str, the path to save predictions.
+    - wholesale_model: Trained model for wholesale predictions.
+    - retail_model: Trained model for retail predictions.
     - wholesale_scalers: Tuple, (scaler_features, scaler_target) for wholesale.
     - retail_scalers: Tuple, (scaler_features, scaler_target) for retail.
     - encoder: Encoder for county binary encoding.
+    - counties: List of str, names of all counties.
+    - output_file: str, the path to save predictions.
     """
-    # Extract scalers
-    scaler_wholesale_features, scaler_wholesale_target = wholesale_scalers
-    scaler_retail_features, scaler_retail_target = retail_scalers
-
     # Ensure required columns are in reference_data
     required_columns = [
         "County", "Date", "Wholesale", "Retail", "Year", "Year_sin", "Year_cos", 
@@ -166,177 +33,113 @@ def predict_and_save(current_date, county, reference_data, model, output_file, w
     reference_data["Date"] = pd.to_datetime(reference_data["Date"])
     current_date = pd.to_datetime(current_date)
 
-    # Filter data for the specified county and ensure it's sorted by date
-    county_data = reference_data[reference_data["County"] == county].sort_values(by="Date")
+    # Initialize a list to collect predictions for all counties
+    all_predictions = []
 
-    # Check if we have sufficient historical data for feature generation
-    min_required_date = current_date - pd.Timedelta(days=7)
-    if county_data["Date"].min() > min_required_date:
-        print(f"Insufficient historical data for {county} on {current_date.date()}. Prediction cannot proceed.")
-        return
+    # Iterate through each county
+    for county in counties:
+        # Filter data for the specified county and ensure it's sorted by date
+        county_data = reference_data[reference_data["County"] == county].sort_values(by="Date")
 
-    # Generate lagged and rolling features
-    def add_lagged_and_rolling_features(group):
-        group["Wholesale_lag_7"] = group["Wholesale"].shift(7)
-        group["Retail_lag_7"] = group["Retail"].shift(7)
-        group["Wholesale_rolling_mean_7d"] = group["Wholesale"].shift(1).rolling(window=7).mean()
-        group["Retail_rolling_mean_7d"] = group["Retail"].shift(1).rolling(window=7).mean()
-        group["Wholesale_rolling_std_7d"] = group["Wholesale"].shift(1).rolling(window=7).std()
-        group["Retail_rolling_std_7d"] = group["Retail"].shift(1).rolling(window=7).std()
-        return group
+        # Check if we have sufficient historical data for feature generation
+        min_required_date = current_date - pd.Timedelta(days=7)
+        if county_data["Date"].min() > min_required_date:
+            print(f"Insufficient historical data for {county} on {current_date.date()}. Prediction skipped.")
+            continue
 
-    county_data = add_lagged_and_rolling_features(county_data)
+        # Generate lagged and rolling features
+        def add_lagged_and_rolling_features(group):
+            group["Wholesale_lag_7"] = group["Wholesale"].shift(7)
+            group["Retail_lag_7"] = group["Retail"].shift(7)
+            group["Wholesale_rolling_mean_7d"] = group["Wholesale"].shift(1).rolling(window=7).mean()
+            group["Retail_rolling_mean_7d"] = group["Retail"].shift(1).rolling(window=7).mean()
+            group["Wholesale_rolling_std_7d"] = group["Wholesale"].shift(1).rolling(window=7).std()
+            group["Retail_rolling_std_7d"] = group["Retail"].shift(1).rolling(window=7).std()
+            return group
 
-    # Filter data for the current_date
-    input_row = county_data[county_data["Date"] == current_date]
-    if input_row.empty:
-        new_row = {
-            "Date": current_date,
-            "County": county,
-            "Wholesale": np.nan,
-            "Retail": np.nan,
-            "Wholesale_lag_7": county_data["Wholesale"].iloc[-7],
-            "Retail_lag_7": county_data["Retail"].iloc[-7],
-            "Wholesale_rolling_mean_7d": county_data["Wholesale"].iloc[:-1].rolling(7).mean().iloc[-1],
-            "Retail_rolling_mean_7d": county_data["Retail"].iloc[:-1].rolling(7).mean().iloc[-1],
-            "Wholesale_rolling_std_7d": county_data["Wholesale"].iloc[:-1].rolling(7).std().iloc[-1],
-            "Retail_rolling_std_7d": county_data["Retail"].iloc[:-1].rolling(7).std().iloc[-1],
-        }
-        county_data = pd.concat([county_data, pd.DataFrame([new_row])], ignore_index=True)
+        county_data = add_lagged_and_rolling_features(county_data)
+
+        # Filter data for the current_date
         input_row = county_data[county_data["Date"] == current_date]
+        if input_row.empty:
+            new_row = {
+                "Date": current_date,
+                "County": county,
+                "Wholesale": np.nan,
+                "Retail": np.nan,
+                "Wholesale_lag_7": county_data["Wholesale"].iloc[-7],
+                "Retail_lag_7": county_data["Retail"].iloc[-7],
+                "Wholesale_rolling_mean_7d": county_data["Wholesale"].iloc[:-1].rolling(7).mean().iloc[-1],
+                "Retail_rolling_mean_7d": county_data["Retail"].iloc[:-1].rolling(7).mean().iloc[-1],
+                "Wholesale_rolling_std_7d": county_data["Wholesale"].iloc[:-1].rolling(7).std().iloc[-1],
+                "Retail_rolling_std_7d": county_data["Retail"].iloc[:-1].rolling(7).std().iloc[-1],
+            }
+            county_data = pd.concat([county_data, pd.DataFrame([new_row])], ignore_index=True)
+            input_row = county_data[county_data["Date"] == current_date]
 
-    # Apply encoder for 'County_2'
-    county_encoded = encoder.transform(pd.DataFrame({"County": [county]}))
-    input_row.loc[:, "County_2"] = county_encoded.iloc[0, 5]
+        # Apply encoder for 'County_2'
+        county_encoded = encoder.transform(pd.DataFrame({"County": [county]}))
+        input_row.loc[:, "County_2"] = county_encoded.iloc[0, 5]
 
-    # Define feature columns
-    feature_columns = [
-        'County_2', 'Year', 'Year_sin', 'Year_cos', 'Wholesale_lag_7', 'Retail_lag_7', 
-        'Wholesale_rolling_mean_7d', 'Wholesale_rolling_std_7d', 'Retail_rolling_mean_7d', 'Retail_rolling_std_7d'
-    ]
-    X_last_20_days = county_data[feature_columns].iloc[-20:]
+        # Define feature columns
+        feature_columns = [
+            'County_2', 'Year', 'Year_sin', 'Year_cos', 'Wholesale_lag_7', 'Retail_lag_7', 
+            'Wholesale_rolling_mean_7d', 'Wholesale_rolling_std_7d', 'Retail_rolling_mean_7d', 'Retail_rolling_std_7d'
+        ]
+        
+        X_last_20_days = county_data[feature_columns].iloc[-20:]
+        X_last_20_days = X_last_20_days[['Year', 'Year_sin', 'Year_cos', 'Wholesale_lag_7', 'Retail_lag_7',
+       'Wholesale_rolling_mean_7d', 'Retail_rolling_mean_7d',
+       'Wholesale_rolling_std_7d', 'Retail_rolling_std_7d', 'County_2']]
 
-    # Handle NaNs in features
-    if X_last_20_days.isna().any().any():
-        X_last_20_days = X_last_20_days.fillna(method='ffill').fillna(method='bfill')
+        # Handle NaNs in features
+        if X_last_20_days.isna().any().any():
+            X_last_20_days = X_last_20_days.fillna(method='ffill').fillna(method='bfill')
 
-    # Scale features
-    X_last_20_days_wholesale_scaled = scaler_wholesale_features.transform(X_last_20_days)
-    X_last_20_days_retail_scaled = scaler_retail_features.transform(X_last_20_days)
+        # Scale features
+        X_last_20_days_wholesale_scaled = wholesale_scalers[0].transform(X_last_20_days)
+        X_last_20_days_retail_scaled = retail_scalers[0].transform(X_last_20_days)
 
-    # Reshape for prediction
-    X_pred_wholesale = X_last_20_days_wholesale_scaled.reshape((1, 20, len(feature_columns)))
-    X_pred_retail = X_last_20_days_retail_scaled.reshape((1, 20, len(feature_columns)))
+        # Reshape for prediction
+        X_pred_wholesale = X_last_20_days_wholesale_scaled.reshape((1, 20, len(feature_columns)))
+        X_pred_retail = X_last_20_days_retail_scaled.reshape((1, 20, len(feature_columns)))
 
-    # Predict wholesale and retail prices
-    wholesale_prediction = model.predict(X_pred_wholesale).flatten()
-    retail_prediction = model.predict(X_pred_retail).flatten()
+        # Predict wholesale and retail prices
+        wholesale_prediction = wholesale_model.predict(X_pred_wholesale).flatten()
+        retail_prediction = retail_model.predict(X_pred_retail).flatten()
 
-    # Inverse scale predictions
-    wholesale_prediction = scaler_wholesale_target.inverse_transform(wholesale_prediction.reshape(-1, 1)).flatten()
-    retail_prediction = scaler_retail_target.inverse_transform(retail_prediction.reshape(-1, 1)).flatten()
+        # Inverse scale predictions
+        wholesale_prediction = wholesale_scalers[1].inverse_transform(wholesale_prediction.reshape(-1, 1)).flatten()
+        retail_prediction = retail_scalers[1].inverse_transform(retail_prediction.reshape(-1, 1)).flatten()
 
-    # Save predictions
-    future_dates = pd.date_range(start=current_date, periods=20, freq='D')
-    predicted_prices_df = pd.DataFrame({
-        "Date": future_dates,
-        "County": [county] * 20,
-        "Predicted_Wholesale": wholesale_prediction,
-        "Predicted_Retail": retail_prediction
-    })
-    predicted_prices_df.to_csv(output_file, index=False)
-    print(f"Predictions for {county} saved to {output_file}")
+        # Save predictions for this county
+        future_dates = pd.date_range(start=current_date, periods=20, freq='D')
+        county_predictions = pd.DataFrame({
+            "Date": future_dates,
+            "County": [county] * 20,
+            "Predicted_Wholesale": wholesale_prediction,
+            "Predicted_Retail": retail_prediction
+        })
+
+        all_predictions.append(county_predictions)
+
+    # Combine all predictions into a single DataFrame
+    combined_predictions = pd.concat(all_predictions, ignore_index=True)
+
+    # Save to CSV
+    combined_predictions.to_csv(output_file, index=False)
+    print(f"All predictions saved to {output_file}")
 
 
-
-
-import pandas as pd
-from datetime import datetime
-from tensorflow.keras.models import load_model
-import pickle
-import numpy as np
-import joblib
-# from predict import predict_and_save  # Import the predict_and_save function
-
-# Load necessary files
-wholesale_model = load_model("models/best_wholesale_model_sequence.h5")
-retail_model = load_model("models/best_retail_model_sequence.h5")
-
-# Load scalers
-# with open("models/scaler_wholesale_features.pkl", "rb") as f:
-#     wholesale_features_scaler = pickle.load(f)
-# with open("models/scaler_wholesale_target.pkl", "rb") as f:
-#     wholesale_target_scaler = pickle.load(f)
-# with open("models/scaler_retail_features.pkl", "rb") as f:
-#     retail_features_scaler = pickle.load(f)
-# with open("models/scaler_retail_target.pkl", "rb") as f:
-#     retail_target_scaler = pickle.load(f)
-
-import joblib
-
-# Load the scalers using joblib
-wholesale_features_scaler = joblib.load("models/scaler_wholesale_features.pkl")
-wholesale_target_scaler = joblib.load("models/scaler_wholesale_target.pkl")
-retail_features_scaler = joblib.load("models/scaler_retail_features.pkl")
-retail_target_scaler = joblib.load("models/scaler_retail_target.pkl")
-
-# Load encoder
-county_encoder = joblib.load("models\County_binary_encoder.pkl")
-
-# Read reference data (use your actual file path here)
-reference_data = pd.read_csv("historical_data.csv")
-
-# Set the current date for prediction
-current_date = datetime.now().strftime("%Y-%m-%d")
-
-# Example county you want to predict for
-county = 'Siaya'  # Replace with the county you want to test
-
-# Set the output prediction file path
-prediction_save_path = "predictions.csv"
-
-# Call the predict_and_save function for wholesale prediction
-# predict_and_save(
-#     current_date=current_date,
-#     county=county,
-#     reference_data=reference_data,
-#     model=wholesale_model,
-#     output_file=prediction_save_path,
-#     wholesale_scalers=(wholesale_features_scaler, wholesale_target_scaler),
-#     retail_scalers=(retail_features_scaler, retail_target_scaler),
-#     encoder=county_encoder
-# )
-
-import pandas as pd
-from datetime import datetime
-from tensorflow.keras.models import load_model
-import joblib
-import numpy as np
-
-# Define the function predict_and_save (ensure it's in your script or imported)
-# from predict import predict_and_save
-
-# Load necessary files
-wholesale_model = load_model("models/best_wholesale_model_sequence.h5")
-retail_model = load_model("models/best_retail_model_sequence.h5")
-
-# Load scalers using joblib
-wholesale_features_scaler = joblib.load("models/scaler_wholesale_features.pkl")
-wholesale_target_scaler = joblib.load("models/scaler_wholesale_target.pkl")
-retail_features_scaler = joblib.load("models/scaler_retail_features.pkl")
-retail_target_scaler = joblib.load("models/scaler_retail_target.pkl")
-
-# Load encoder
-county_encoder = joblib.load("models/County_binary_encoder.pkl")
-
-# Read reference data (use your actual file path here)
-reference_data = pd.read_csv("historical_data.csv")
-
-# Set the current date for prediction
-current_date = datetime.now().strftime("%Y-%m-%d")
-
-# List of counties
-counties = [
+predict_and_save_all(
+    current_date="2025-1-5",
+    reference_data=pd.read_csv("historical_data.csv"),
+    wholesale_model=tf.keras.models.load_model(r"models/best_wholesale_model_sequence.h5"),
+    retail_model=tf.keras.models.load_model(r"models/best_retail_model_sequence.h5"),
+    wholesale_scalers=(joblib.load("models/scaler_wholesale_features.pkl"), joblib.load("models/scaler_wholesale_target.pkl")),
+    retail_scalers=(joblib.load("models/scaler_retail_features.pkl"), joblib.load("models/scaler_retail_target.pkl")),
+    encoder=joblib.load("models/County_binary_encoder.pkl"),
+    counties=[
     'Baringo', 'Bomet', 'Bungoma', 'Busia', 'Elgeyo-Marakwet', 'Embu',
     'Garissa', 'Homa-bay', 'Isiolo', 'Kajiado', 'Kakamega', 'Kericho',
     'Kiambu', 'Kilifi', 'Kirinyaga', 'Kisii', 'Kisumu', 'Kitui',
@@ -346,25 +149,6 @@ counties = [
     'Siaya', 'Taita-Taveta', 'Tana-River', 'Tharaka-Nithi',
     'Trans-Nzoia', 'Turkana', 'Uasin-Gishu', 'Vihiga', 'Wajir',
     'West-Pokot'
-]
-
-# Iterate through each county and save predictions
-for county in counties:
-    output_file = f"predictions_{county}.csv"  # Save each county's predictions in a separate file
-    try:
-        predict_and_save(
-            current_date=current_date,
-            county=county,
-            reference_data=reference_data,
-            model=wholesale_model,
-            output_file=output_file,
-            wholesale_scalers=(wholesale_features_scaler, wholesale_target_scaler),
-            retail_scalers=(retail_features_scaler, retail_target_scaler),
-            encoder=county_encoder
-        )
-        print(f"Predictions for {county} saved to {output_file}.")
-    except Exception as e:
-        print(f"Failed to generate predictions for {county}. Error: {e}")
-
-
-print(f"Predictions for {county} saved to {prediction_save_path}.")
+    ],
+    output_file="predictions.csv"
+)
